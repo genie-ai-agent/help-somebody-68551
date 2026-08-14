@@ -1,7 +1,7 @@
 // Help Somebody — internal docs
 // Everything here was gathered from Andrew + Iqram in the Genie thread, or verified
 // from public sources. Anything unverified is marked UNCONFIRMED.
-// Last updated: 2026-08-14 (added Failure as edge page from Andrew's jelly)
+// Last updated: 2026-08-14 (Failure as edge expanded: persistence + named prior attempts)
 
 window.DOCS = [
   {
@@ -136,6 +136,13 @@ window.DOCS = [
         "The asymmetry: most VCs have watched failure from a board seat. Some have felt a near-death \u2014 Venmo nearly died \u2014 but that is not the same as being the one who has to keep going after it dies.",
         "So the check is not the product. Someone who has been there, when it's going badly, is the product. That's the same claim as \u201cwe jelly all day\u201d and \u201cmental health,\u201d arriving from a third direction."
       ]},
+      { type: "p", text: "Second pass, same jelly re-recorded: the argument is really about persistence, not pain. Venmo was not the first thing Iqram and Kortina built together, it was roughly the fifth or sixth. The failures are the reps that produced the win, which is exactly the pattern we're underwriting in other people." },
+      { type: "list", items: [
+        "Iqram + Kortina, before Venmo (public record): My College Post, a college classifieds site built senior year. Swooge, website analytics. Philafunk, a music site. iminlikewithyou, a dating site. Plus a real estate startup whose revenue paid for Venmo's first Philadelphia office.",
+        "Then they split up for jobs — Kortina to Bit.ly, Iqram to TicketLeap — and came back together anyway. That's the persistence beat, and it makes the pipeline slide rhyme: TicketLeap is Chris Stanchak's company, and Stanchak was a founding advisor to Venmo.",
+        "Venmo itself started as a mobile music company (text a band, get an mp3) and pivoted only after Iqram forgot his wallet in New York. So even the win contains a failed first idea.",
+        "LP-facing version of the claim: we are not backing people who have never lost. We are backing people on attempt number five, because we were people on attempt number five."
+      ]},
       { type: "rows", rows: [
         ["Standard why-us", "Track record, logos, exits, a fund number"],
         ["Ours", "Venmo is the credential; the failures are the qualification"],
@@ -143,7 +150,13 @@ window.DOCS = [
         ["What it buys", "Founders tell us the truth earlier, which is when help still works"]
       ]},
       { type: "note", text: "Handle with care in an LP room. \u201cWe don't have lots of money\u201d reads as honesty to a founder and as a GP-commit question to an LP. Recommendation: keep the failure story loud and let the money part be implicit \u2014 \u201cwe are operators, not an institution\u201d \u2014 unless Andrew wants to say it straight, which is also a defensible move with the right LP." },
-      { type: "note", text: "UNCONFIRMED, transcript was unclear: Andrew referenced his own experience at what sounded like \u201cMave and Vaz,\u201d and Iqram's experience with what sounded like \u201cSmall Talk and Hints\u201d (he corrected himself mid-sentence from Jelly). Need the correct company names and one line each on what happened before any of this goes near the deck." },
+      { type: "rows", rows: [
+        ["Ense", "CONFIRMED public: Iqram's post-Venmo company, a social voice platform founded 2016. Almost certainly the name that came through the transcript as \u201cEnts.\u201d"],
+        ["Fin", "LIKELY the \u201cFinn\u201d in the transcript, but it's Kortina's company (with Sam Lessin), not Iqram's. Don't attribute it to Iqram on an artifact."],
+        ["Smalltalk", "UNCONFIRMED. Said twice across two jellies, so it's real, but nothing public ties it to Iqram. Need one line from him."],
+        ["\u201cMaeve\u201d / \u201cBoz\u201d", "UNCONFIRMED. Andrew's own two companies, spelled two different ways across two takes (Mave/Vaz, then Maeve/Boz). Need correct spellings plus one line each on what happened."]
+      ]},
+      { type: "note", text: "Four company names still need Andrew's confirmation before any of this reaches the deck. Two are now resolved from public sources (Ense, Fin); two are not (Smalltalk, and both of Andrew's)." },
       { type: "note", text: "Proposed deck change, pending Andrew's go: rewrite the why-us slide to lead with failures alongside Venmo, rather than Venmo alone. Deck untouched until approved." }
     ]
   },
@@ -282,7 +295,8 @@ window.DOCS = [
         { date: "Aug 14", text: "Why now has a real answer: prototypes, MVPs and first users are all far easier than ever. Non-engineers can do it. Engineers with busy jobs and families can do it on the side. That unlocks a generation of people to invest in. \u2192 written up on the Why now page; deck slide 4 rewrite proposed, not made." },
         { date: "Aug 14", text: "Help Somebody as the first actually AI-native accelerator. Not AI to optimize our operations \u2014 reinventing what an accelerator is. Example: I can be every company's growth engineer long term; we build tools for all our companies that help them all. \u2192 written up on the AI-native page; needs one call on accelerator vs fund, and where it goes in the deck." },
         { date: "Aug 14", text: "Mental health as a thing we help with. Andrew has been through a lot across a few startups, learned a lot about founders and himself, thinks it's one of the biggest levers on founder success. Top reason startups fail is cofounder issues. Wants to foster the cofounder relationship where there are multiple people, and support solo founders and individual cofounders on their state of mind. \u2192 written up on the Mental health page; proposed as a bullet or a slide on the deck, not made." },
-        { date: "Aug 14", text: "Having no money and having failed a lot is a huge advantage. Most founders fail; we're failing. VCs who haven't been through a startup failure have no idea what founders are going through \u2014 some have seen a near-failure like Venmo, but that's different. Andrew's own experience at [Mave? Vaz?] and Iqram's with [Small Talk? Hints?] really helps. \u2192 written up on the Failure as edge page; why-us slide rewrite proposed, not made. Company names need confirming." }
+        { date: "Aug 14", text: "Having no money and having failed a lot is a huge advantage. Most founders fail; we're failing. VCs who haven't been through a startup failure have no idea what founders are going through \u2014 some have seen a near-failure like Venmo, but that's different. Andrew's own experience at [Mave? Vaz?] and Iqram's with [Small Talk? Hints?] really helps. \u2192 written up on the Failure as edge page; why-us slide rewrite proposed, not made. Company names need confirming." },
+        { date: "Aug 14", text: "Recap of two jellies lost in transit (five lost so far). Same failure-as-edge argument, plus a new beat: it was an advantage at Venmo too, since that was Iqram and Kortina's fifth or sixth project together. Most startups fail, we know how that feels, we've seen so many situations \u2014 [Maeve?] and [Boz?] and [Fin?], [Ense?] and [Smalltalk?] \u2014 and we get these founders. \u2192 folded into the Failure as edge page as the persistence argument, with the prior attempts named from public record." }
       ]},
       { type: "note", text: "Keep dumping. Each one gets logged here, plus a written-up page if it's substantial, plus a one-line proposed change so you can approve or kill it." }
     ]

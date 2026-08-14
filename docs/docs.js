@@ -1,7 +1,7 @@
 // Help Somebody — internal docs
 // Everything here was gathered from Andrew + Iqram in the Genie thread, or verified
 // from public sources. Anything unverified is marked UNCONFIRMED.
-// Last updated: 2026-08-14 (added Why now + Idea inbox from Andrew's jelly)
+// Last updated: 2026-08-14 (added AI-native accelerator page from Andrew's jelly)
 
 window.DOCS = [
   {
@@ -69,6 +69,31 @@ window.DOCS = [
       ]},
       { type: "p", text: "This is the supply-side argument, and it pairs with the demand-side one on the previous page: many more medium outcomes, which unicorn-or-bust fund math structurally can't underwrite. Together they say the opportunity is both bigger and unaddressed." },
       { type: "note", text: "Proposed deck change, pending Andrew's go: rewrite slide 4 (\u201cWhy now\u201d) around this. Lead with the two unlocked archetypes \u2014 the non-engineer and the moonlighting engineer with a family \u2014 rather than a generic \u201ccosts are falling\u201d line. Deck is untouched until approved." }
+    ]
+  },
+  {
+    slug: "ai-native",
+    nav: "AI-native",
+    title: "The first actually AI-native accelerator",
+    kicker: "Captured Aug 14 \u00b7 not yet applied to the deck",
+    blocks: [
+      { type: "quote", text: "We're not going to use AI to optimize our operations. We're going to reinvent what an accelerator is in the world of AI. It's a completely different thing." },
+      { type: "p", text: "Another way to describe Help Somebody: the first accelerator that is actually AI-native. The distinction Andrew is drawing is the whole idea, so keep it sharp. Every existing accelerator is AI-assisted at best: same batch, same demo day, same office hours, now with AI somewhere in the back office. AI-native means the shape of the thing itself changes." },
+      { type: "rows", rows: [
+        ["AI-assisted (everyone else)", "AI makes the existing accelerator cheaper to run"],
+        ["AI-native (us)", "AI changes what an accelerator even is"],
+        ["Their unit of help", "Scheduled advice, one founder at a time"],
+        ["Our unit of help", "Tools and operator time, built once, used by everyone"]
+      ]},
+      { type: "p", text: "Andrew's example, and it's the clearest one: \u201cI can be every company's growth engineer.\u201d Not advise on growth, be the growth engineer. Build the tooling once and every company in the portfolio gets it, which is something a human-hours accelerator structurally cannot do." },
+      { type: "list", items: [
+        "Leverage compounds across the portfolio: a tool built for company #1 is live for #12 on day one.",
+        "Support stops being a calendar and becomes a product founders can use at 2am.",
+        "It pairs with jellying rather than replacing it: tools for the repeatable work, humans for the judgment calls.",
+        "It is also the reason a two-person fund can credibly serve more founders than its headcount implies."
+      ]},
+      { type: "note", text: "Proposed deck change, pending Andrew's go: this is either a rewrite of the positioning slide or a new slide of its own. Needs one decision from Andrew, since \u201cfirst AI-native accelerator\u201d and \u201cwe jelly all day\u201d are competing for the same headline slot. Deck untouched until approved." },
+      { type: "note", text: "Open: are we calling ourselves an accelerator now, or a fund? The docs currently say fund throughout. Also unresolved: which tools get built first, and whether they're portfolio-only or public." }
     ]
   },
   {
@@ -182,7 +207,10 @@ window.DOCS = [
         "Which companies go with Tye Wang and Rob Cheung?",
         "Dasmer is on both the already-backed line and the first-checks slide. Which is correct?",
         "Deck look: Zine, Noir, or Press. Genie's vote is Noir.",
-        "Citation for the 20,000+ YC applicants per batch figure."
+        "Citation for the 20,000+ YC applicants per batch figure.",
+        "Accelerator or fund? \u201cFirst AI-native accelerator\u201d and \u201c$10M fund writing $500K checks\u201d imply different structures. Pick the word.",
+        "If accelerator: does the headline slot go to AI-native, or to we-jelly-all-day? They can't both be the one line an LP remembers.",
+        "Which portfolio tool gets built first, and is it portfolio-only or public?"
       ]}
     ]
   },
@@ -194,7 +222,8 @@ window.DOCS = [
     blocks: [
       { type: "p", text: "Andrew sends ideas freeform. They land here verbatim-ish, dated, and stay here until he says which ones become edits. Nothing in this section has been applied to the website or the deck." },
       { type: "log", items: [
-        { date: "Aug 14", text: "Why now has a real answer: prototypes, MVPs and first users are all far easier than ever. Non-engineers can do it. Engineers with busy jobs and families can do it on the side. That unlocks a generation of people to invest in. \u2192 written up on the Why now page; deck slide 4 rewrite proposed, not made." }
+        { date: "Aug 14", text: "Why now has a real answer: prototypes, MVPs and first users are all far easier than ever. Non-engineers can do it. Engineers with busy jobs and families can do it on the side. That unlocks a generation of people to invest in. \u2192 written up on the Why now page; deck slide 4 rewrite proposed, not made." },
+        { date: "Aug 14", text: "Help Somebody as the first actually AI-native accelerator. Not AI to optimize our operations \u2014 reinventing what an accelerator is. Example: I can be every company's growth engineer long term; we build tools for all our companies that help them all. \u2192 written up on the AI-native page; needs one call on accelerator vs fund, and where it goes in the deck." }
       ]},
       { type: "note", text: "Keep dumping. Each one gets logged here, plus a written-up page if it's substantial, plus a one-line proposed change so you can approve or kill it." }
     ]

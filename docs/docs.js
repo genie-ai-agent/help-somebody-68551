@@ -1,7 +1,7 @@
 // Help Somebody — internal docs
 // Everything here was gathered from Andrew + Iqram in the Genie thread, or verified
 // from public sources. Anything unverified is marked UNCONFIRMED.
-// Last updated: 2026-08-14
+// Last updated: 2026-08-14 (added Why now + Idea inbox from Andrew's jelly)
 
 window.DOCS = [
   {
@@ -51,6 +51,24 @@ window.DOCS = [
       ]},
       { type: "p", text: "Market framing we use instead of a TAM triangle: 20,000+ companies apply to YC in a single batch and roughly 99% get rejected. The supply of fundable, capable founders massively exceeds the number of people willing to actually help them." },
       { type: "note", text: "UNCONFIRMED: the 20,000+ per batch figure should get a citation before it goes in front of an institutional LP." }
+    ]
+  },
+  {
+    slug: "why-now",
+    nav: "Why now",
+    title: "Why now, in Andrew's words",
+    kicker: "Captured Aug 14 \u00b7 not yet applied to the deck",
+    blocks: [
+      { type: "quote", text: "It's way easier to build prototypes, way easier to build a real MVP, and way easier to get your first users than ever before. That unlocks a whole generation of people we can invest in." },
+      { type: "p", text: "The reason this is a legitimate \u201cwhy now\u201d and not a platitude: the change isn't that building got cheaper in the abstract, it's that it opened the door for specific people who were previously locked out of starting anything." },
+      { type: "list", items: [
+        "Non-engineers can now build and ship a working product themselves.",
+        "Engineers with demanding jobs and families can do it on the side, without quitting first.",
+        "Getting to a prototype, an MVP, and first users are all dramatically cheaper and faster than five years ago.",
+        "Net effect: the pool of fundable founders just expanded to include people traditional VC never saw."
+      ]},
+      { type: "p", text: "This is the supply-side argument, and it pairs with the demand-side one on the previous page: many more medium outcomes, which unicorn-or-bust fund math structurally can't underwrite. Together they say the opportunity is both bigger and unaddressed." },
+      { type: "note", text: "Proposed deck change, pending Andrew's go: rewrite slide 4 (\u201cWhy now\u201d) around this. Lead with the two unlocked archetypes \u2014 the non-engineer and the moonlighting engineer with a family \u2014 rather than a generic \u201ccosts are falling\u201d line. Deck is untouched until approved." }
     ]
   },
   {
@@ -166,6 +184,19 @@ window.DOCS = [
         "Deck look: Zine, Noir, or Press. Genie's vote is Noir.",
         "Citation for the 20,000+ YC applicants per batch figure."
       ]}
+    ]
+  },
+  {
+    slug: "inbox",
+    nav: "Idea inbox",
+    title: "Idea inbox",
+    kicker: "Raw dumps, captured as sent, nothing acted on",
+    blocks: [
+      { type: "p", text: "Andrew sends ideas freeform. They land here verbatim-ish, dated, and stay here until he says which ones become edits. Nothing in this section has been applied to the website or the deck." },
+      { type: "log", items: [
+        { date: "Aug 14", text: "Why now has a real answer: prototypes, MVPs and first users are all far easier than ever. Non-engineers can do it. Engineers with busy jobs and families can do it on the side. That unlocks a generation of people to invest in. \u2192 written up on the Why now page; deck slide 4 rewrite proposed, not made." }
+      ]},
+      { type: "note", text: "Keep dumping. Each one gets logged here, plus a written-up page if it's substantial, plus a one-line proposed change so you can approve or kill it." }
     ]
   },
   {

@@ -23,9 +23,11 @@ body{
   display:none;
   min-height:100dvh;
   padding:clamp(24px,6vw,80px);
+  padding-top:clamp(72px,13vw,92px);
   padding-bottom:clamp(104px,14vw,120px);
   position:relative;
-  overflow:hidden;
+  overflow-x:hidden;
+  overflow-y:auto;
   background:var(--cream);
 }
 .slide.is-active{display:flex;align-items:center}

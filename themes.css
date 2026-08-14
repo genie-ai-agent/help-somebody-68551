@@ -1,0 +1,283 @@
+/* ============================================================
+   THEME OVERRIDES
+   styles.css owns layout + the default "zine" look.
+   This file repaints the deck for the other two options.
+   ============================================================ */
+
+/* ---------- shared: theme picker ---------- */
+#themes{
+  position:fixed;
+  top:12px;left:50%;transform:translateX(-50%);
+  display:flex;gap:2px;
+  background:rgba(12,12,14,.9);
+  border-radius:999px;
+  padding:4px;
+  z-index:60;
+  backdrop-filter:blur(6px);
+  box-shadow:0 4px 20px rgba(0,0,0,.28);
+}
+#themes button{
+  appearance:none;border:none;cursor:pointer;
+  background:transparent;color:#f2efe9;
+  font-family:'Inter',sans-serif;
+  font-size:11px;font-weight:600;
+  letter-spacing:.13em;text-transform:uppercase;
+  padding:9px 14px;min-height:36px;
+  border-radius:999px;
+  opacity:.55;
+  transition:opacity .18s ease,background .18s ease;
+}
+#themes button:hover{opacity:.85}
+#themes button[aria-pressed="true"]{
+  opacity:1;background:#f2efe9;color:#0c0c0e;
+}
+@media print{#themes{display:none!important}}
+
+
+/* ============================================================
+   THEME: NOIR  —  luxury / minimal
+   near-black + bone, one electric accent, Playfair at scale,
+   hairlines only, no shadows, no radius, lots of air.
+   ============================================================ */
+[data-theme="noir"]{
+  --acc:#5f7bff;
+  --bone:#f2efe9;
+  --coal:#0b0b0e;
+}
+[data-theme="noir"] body,
+body[data-theme="noir"]{background:var(--coal)}
+
+[data-theme="noir"] .slide,
+[data-theme="noir"] .slide--title,
+[data-theme="noir"] .slide--insight,
+[data-theme="noir"] .slide--solution,
+[data-theme="noir"] .slide--traction,
+[data-theme="noir"] .slide--people,
+[data-theme="noir"] .slide--model{
+  background:var(--bone);
+  color:var(--coal);
+  background-image:none;
+}
+[data-theme="noir"] .slide--problem,
+[data-theme="noir"] .slide--why-now,
+[data-theme="noir"] .slide--team,
+[data-theme="noir"] .slide--market,
+[data-theme="noir"] .slide--ask{
+  background:var(--coal);
+  color:var(--bone);
+  background-image:none;
+}
+[data-theme="noir"] .slide--title:before{
+  border:1px solid rgba(11,11,14,.16);
+  background:transparent;opacity:1;
+  right:-22vw;top:-22vw;width:70vw;height:70vw;
+}
+
+[data-theme="noir"] .mega,
+[data-theme="noir"] .headline,
+[data-theme="noir"] .stat,
+[data-theme="noir"] .person h3,
+[data-theme="noir"] .card__name,
+[data-theme="noir"] .nums dd{
+  font-family:'Playfair Display',serif;
+}
+[data-theme="noir"] .lede,
+[data-theme="noir"] .big,
+[data-theme="noir"] .kicker,
+[data-theme="noir"] .byline,
+[data-theme="noir"] .foot,
+[data-theme="noir"] .cv li,
+[data-theme="noir"] .person p,
+[data-theme="noir"] .tile,
+[data-theme="noir"] .nums dt,
+[data-theme="noir"] .stat__tail{
+  font-family:'Inter',sans-serif;
+}
+
+[data-theme="noir"] .mega{font-weight:500;letter-spacing:-.035em;line-height:.9}
+[data-theme="noir"] .mega em{color:var(--acc);font-weight:500}
+[data-theme="noir"] .mega--ask{color:var(--acc);font-style:normal;font-weight:500}
+[data-theme="noir"] .headline{font-weight:500;letter-spacing:-.02em;line-height:1.06}
+[data-theme="noir"] .headline--light{color:inherit}
+[data-theme="noir"] .kicker,
+[data-theme="noir"] .kicker--light{color:var(--acc);font-weight:600;letter-spacing:.3em}
+[data-theme="noir"] .stat__num{color:var(--acc);font-weight:500;letter-spacing:-.05em}
+[data-theme="noir"] .stat__tail{color:inherit;font-weight:300;opacity:.85}
+[data-theme="noir"] .lede{font-weight:300;opacity:.9}
+[data-theme="noir"] .big{font-weight:300;color:inherit;opacity:.82}
+[data-theme="noir"] .big em{font-family:'Playfair Display',serif;font-weight:500}
+[data-theme="noir"] .slide--problem .big,
+[data-theme="noir"] .slide--why-now .big{color:inherit;opacity:.82}
+[data-theme="noir"] .slide--ask .lede,
+[data-theme="noir"] .slide--ask .byline{color:inherit}
+[data-theme="noir"] .byline{font-weight:500;letter-spacing:.22em;opacity:.5}
+[data-theme="noir"] .foot{color:var(--acc);font-weight:400}
+[data-theme="noir"] .mark{background:transparent;color:var(--acc);padding:0;font-weight:500}
+
+[data-theme="noir"] .tile{
+  background:transparent;border:1px solid currentColor;
+  border-radius:0;box-shadow:none;
+  font-weight:500;font-size:clamp(11px,2.8vw,13px);
+  letter-spacing:.2em;text-transform:uppercase;
+  padding:.85em 1.2em;opacity:.75;
+}
+[data-theme="noir"] .tiles{gap:8px}
+
+[data-theme="noir"] .person h3{font-weight:500;color:inherit}
+[data-theme="noir"] .person p{color:inherit;opacity:.62;font-weight:300}
+[data-theme="noir"] .slide--team .person h3,
+[data-theme="noir"] .slide--market .person h3{color:var(--acc)}
+[data-theme="noir"] .slide--team .person p,
+[data-theme="noir"] .slide--market .person p{color:inherit;opacity:.7}
+
+[data-theme="noir"] .card{
+  background:transparent;border:none;box-shadow:none;
+  border-top:1px solid rgba(11,11,14,.22);
+  padding:22px 0 0;
+}
+[data-theme="noir"] .card__name{
+  font-weight:500;border-bottom:none;
+  padding-bottom:0;margin-bottom:.7em;
+  font-size:clamp(23px,4.4vw,31px);
+}
+[data-theme="noir"] .cv{gap:.65em}
+[data-theme="noir"] .cv li{font-weight:300;opacity:.85;padding-left:0}
+[data-theme="noir"] .cv li:before{display:none}
+[data-theme="noir"] .cv b{font-weight:600;opacity:1}
+
+[data-theme="noir"] .nums>div{border-top:1px solid rgba(11,11,14,.22)}
+[data-theme="noir"] .nums dt{font-weight:600;letter-spacing:.24em;opacity:.5}
+[data-theme="noir"] .nums dd{font-weight:500;letter-spacing:-.03em}
+
+[data-theme="noir"] #hud{background:var(--coal);box-shadow:0 6px 24px rgba(0,0,0,.35)}
+[data-theme="noir"] #counter,
+[data-theme="noir"] #hud button{color:var(--bone);font-family:'Inter',sans-serif}
+
+
+/* ============================================================
+   THEME: PRESS  —  editorial / restrained
+   warm paper, Source Serif, one ink red, rules instead of boxes,
+   reads like a printed prospectus.
+   ============================================================ */
+[data-theme="press"]{
+  --acc:#a8321f;
+  --paperw:#fbf8f1;
+  --paperw2:#f4efe3;
+  --inkp:#1d1b17;
+}
+[data-theme="press"] body,
+body[data-theme="press"]{background:var(--inkp)}
+
+[data-theme="press"] .slide{
+  background:var(--paperw);
+  color:var(--inkp);
+  background-image:none;
+}
+[data-theme="press"] .slide--insight,
+[data-theme="press"] .slide--traction,
+[data-theme="press"] .slide--model{background:var(--paperw2)}
+[data-theme="press"] .slide--problem,
+[data-theme="press"] .slide--why-now,
+[data-theme="press"] .slide--team,
+[data-theme="press"] .slide--market,
+[data-theme="press"] .slide--ask{
+  background:var(--inkp);
+  color:var(--paperw);
+}
+[data-theme="press"] .slide--title:before{
+  background:var(--acc);opacity:.09;
+  border-radius:0;
+  right:auto;left:0;top:0;
+  width:100%;height:10px;
+}
+
+[data-theme="press"] .mega,
+[data-theme="press"] .headline,
+[data-theme="press"] .stat,
+[data-theme="press"] .person h3,
+[data-theme="press"] .card__name,
+[data-theme="press"] .nums dd,
+[data-theme="press"] .lede{
+  font-family:'Source Serif 4',serif;
+}
+[data-theme="press"] .big,
+[data-theme="press"] .kicker,
+[data-theme="press"] .byline,
+[data-theme="press"] .foot,
+[data-theme="press"] .cv li,
+[data-theme="press"] .person p,
+[data-theme="press"] .tile,
+[data-theme="press"] .nums dt,
+[data-theme="press"] .stat__tail{
+  font-family:'Inter',sans-serif;
+}
+
+[data-theme="press"] .mega{font-weight:700;letter-spacing:-.025em;line-height:.92}
+[data-theme="press"] .mega em{color:var(--acc);font-weight:700}
+[data-theme="press"] .mega--ask{color:var(--acc);font-style:normal}
+[data-theme="press"] .headline{font-weight:600;line-height:1.1;letter-spacing:-.012em}
+[data-theme="press"] .headline--light{color:inherit}
+[data-theme="press"] .kicker,
+[data-theme="press"] .kicker--light{
+  color:var(--acc);font-weight:600;letter-spacing:.26em;
+  padding-bottom:.9em;border-bottom:1px solid currentColor;
+  display:inline-block;
+}
+[data-theme="press"] .slide--problem .kicker,
+[data-theme="press"] .slide--why-now .kicker--light,
+[data-theme="press"] .slide--team .kicker--light,
+[data-theme="press"] .slide--market .kicker--light,
+[data-theme="press"] .slide--ask .kicker--light{color:#e0876f}
+[data-theme="press"] .stat__num{color:var(--acc);font-weight:700}
+[data-theme="press"] .stat__tail{color:inherit;font-weight:400;opacity:.9}
+[data-theme="press"] .lede{font-weight:400;font-style:italic;opacity:.92}
+[data-theme="press"] .big{font-weight:400;color:inherit;opacity:.85;line-height:1.55}
+[data-theme="press"] .big em{font-family:'Source Serif 4',serif;font-weight:600}
+[data-theme="press"] .slide--problem .big,
+[data-theme="press"] .slide--why-now .big{color:inherit;opacity:.85}
+[data-theme="press"] .slide--ask .lede,
+[data-theme="press"] .slide--ask .byline{color:inherit}
+[data-theme="press"] .byline{letter-spacing:.2em;opacity:.55}
+[data-theme="press"] .foot{color:var(--acc);border-top:1px solid rgba(29,27,23,.2);padding-top:1em}
+[data-theme="press"] .mark{background:transparent;color:var(--acc);padding:0;font-weight:600}
+
+[data-theme="press"] .tile{
+  background:transparent;border:1px solid rgba(29,27,23,.35);
+  border-radius:0;box-shadow:none;
+  font-weight:500;letter-spacing:.14em;text-transform:uppercase;
+  font-size:clamp(11px,2.8vw,13px);padding:.8em 1.1em;
+}
+
+[data-theme="press"] .person h3{font-weight:600;color:inherit}
+[data-theme="press"] .person p{color:inherit;opacity:.75}
+[data-theme="press"] .slide--team .person h3,
+[data-theme="press"] .slide--market .person h3{color:#e0876f}
+[data-theme="press"] .slide--team .person p,
+[data-theme="press"] .slide--market .person p{color:inherit;opacity:.78}
+
+[data-theme="press"] .card{
+  background:transparent;border:none;box-shadow:none;
+  border-left:1px solid rgba(29,27,23,.22);
+  padding:2px 0 2px 20px;
+}
+[data-theme="press"] .card__name{
+  font-weight:700;border-bottom:none;padding-bottom:0;margin-bottom:.6em;
+}
+[data-theme="press"] .cv li{padding-left:1em}
+[data-theme="press"] .cv li:before{
+  content:"\2014";background:transparent;
+  width:auto;height:auto;top:0;color:var(--acc);font-size:.9em;
+}
+
+[data-theme="press"] .nums>div{border-top:1px solid rgba(29,27,23,.3)}
+[data-theme="press"] .nums dt{letter-spacing:.22em;opacity:.6}
+[data-theme="press"] .nums dd{font-weight:700;color:var(--acc)}
+
+[data-theme="press"] #hud{background:var(--inkp)}
+[data-theme="press"] #counter,
+[data-theme="press"] #hud button{color:var(--paperw);font-family:'Inter',sans-serif}
+
+@media (min-width:820px){
+  [data-theme="noir"] .cards,
+  [data-theme="press"] .cards{gap:34px}
+}

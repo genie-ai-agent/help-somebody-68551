@@ -1,7 +1,7 @@
 // Help Somebody — internal docs
 // Everything here was gathered from Andrew + Iqram in the Genie thread, or verified
 // from public sources. Anything unverified is marked UNCONFIRMED.
-// Last updated: 2026-08-14 (added AI-native accelerator page from Andrew's jelly)
+// Last updated: 2026-08-14 (added Failure as edge page from Andrew's jelly)
 
 window.DOCS = [
   {
@@ -94,6 +94,57 @@ window.DOCS = [
       ]},
       { type: "note", text: "Proposed deck change, pending Andrew's go: this is either a rewrite of the positioning slide or a new slide of its own. Needs one decision from Andrew, since \u201cfirst AI-native accelerator\u201d and \u201cwe jelly all day\u201d are competing for the same headline slot. Deck untouched until approved." },
       { type: "note", text: "Open: are we calling ourselves an accelerator now, or a fund? The docs currently say fund throughout. Also unresolved: which tools get built first, and whether they're portfolio-only or public." }
+    ]
+  },
+  {
+    slug: "mental-health",
+    nav: "Mental health",
+    title: "Founder mental health, and the cofounder relationship",
+    kicker: "Captured Aug 14 \u00b7 not yet applied to the deck",
+    blocks: [
+      { type: "quote", text: "I've gone through a lot starting a few startups. I've learned a lot about founders and about myself. I think mental health is actually one of the biggest levers to making more of these founders successful." },
+      { type: "p", text: "Andrew's third pillar of help, alongside the four operating lanes. The claim is not soft: he's arguing that the binding constraint on a founder's outcome is often psychological and relational, not technical or commercial, and that nobody in the funding stack treats it as a real workstream. It is also the pillar he has the most first-hand authority on." },
+      { type: "list", items: [
+        "For teams: actively foster the cofounder relationship rather than hoping it holds. Surface misalignment on vision, pace, equity and effort early, while it's still cheap to fix.",
+        "For solo founders: the failure mode is isolation, not conflict. Jellying is the intervention \u2014 someone who has been there, available when it's bad.",
+        "For every founder, team or solo: individual support on state of mind. Not therapy, not coaching-speak. A person who has been through it and will say the true thing.",
+        "This is the least fakeable part of the offer. It cannot be added to a fund's website; it only exists if the GPs have lived it and will actually pick up."
+      ]},
+      { type: "p", text: "Why it fits the thesis rather than sitting beside it: if cheap building means many more medium outcomes, then the marginal win comes from founders not quitting and teams not fracturing. Mental health work is alpha, not benevolence." },
+      { type: "rows", rows: [
+        ["Everyone else", "Founder wellbeing as a perk: a wellness stipend, a therapist list in the portfolio handbook"],
+        ["Us", "A named lever we work on deliberately, with the GPs personally"],
+        ["Teams", "Cofounder relationship maintenance, on purpose and early"],
+        ["Solo founders", "Someone in the boat with them"]
+      ]},
+      { type: "note", text: "On the stat: the widely cited figure is 65% of high-potential startups failing due to cofounder conflict, from Noam Wasserman's The Founder's Dilemmas. Worth knowing before it goes in front of an LP \u2014 it traces back in part to a 1989 Gorman & Sahlman survey of 49 VCs on 96 at-risk companies, where 61 of 96 (63.5%) ranked team issues in their top three reasons for failure, rounded to 65%. It is defensible as \u201cthe most cited number in the field,\u201d not as fresh data. Recommend Andrew says it as \u201cthe research most people cite says 65%\u201d and then goes straight to his own experience, which is stronger anyway." },
+      { type: "note", text: "Proposed deck change, pending Andrew's go: add mental health / cofounder relationships as a third bullet on the \u201cwhat you get after the check\u201d slide, and consider one dedicated slide since it's the most differentiated and least copyable thing here. Deck untouched until approved." },
+      { type: "note", text: "Open: how much of Andrew's own story goes in the LP deck? It's the credibility, but LP decks are not usually confessional. Needs Andrew's line on how personal to get." }
+    ]
+  },
+  {
+    slug: "failure-edge",
+    nav: "Failure as edge",
+    title: "No money, plenty of scars",
+    kicker: "Captured Aug 14 \u00b7 not yet applied to the deck",
+    blocks: [
+      { type: "quote", text: "The fact that we don't have lots of money, and the fact that we've failed lots of times, is a huge advantage. Most founders fail. We're failing. VCs who have not been through a startup failure have no idea what founders are going through." },
+      { type: "p", text: "This is the \u201cwhy us\u201d beat, inverted. The standard version of that slide is a list of wins. Andrew's version is that the wins are table stakes and the losses are the moat: the median founder experience is failure, and a GP who has only ever won cannot meet a founder inside it." },
+      { type: "list", items: [
+        "Not rich is a feature: no money means we're in it, not above it. We're closer to the founder's position than to an institution's.",
+        "Failure is repeated and recent, not a founding myth. Present tense: we're failing, still building.",
+        "The asymmetry: most VCs have watched failure from a board seat. Some have felt a near-death \u2014 Venmo nearly died \u2014 but that is not the same as being the one who has to keep going after it dies.",
+        "So the check is not the product. Someone who has been there, when it's going badly, is the product. That's the same claim as \u201cwe jelly all day\u201d and \u201cmental health,\u201d arriving from a third direction."
+      ]},
+      { type: "rows", rows: [
+        ["Standard why-us", "Track record, logos, exits, a fund number"],
+        ["Ours", "Venmo is the credential; the failures are the qualification"],
+        ["Emotional register", "Peer in the trench, not investor at the table"],
+        ["What it buys", "Founders tell us the truth earlier, which is when help still works"]
+      ]},
+      { type: "note", text: "Handle with care in an LP room. \u201cWe don't have lots of money\u201d reads as honesty to a founder and as a GP-commit question to an LP. Recommendation: keep the failure story loud and let the money part be implicit \u2014 \u201cwe are operators, not an institution\u201d \u2014 unless Andrew wants to say it straight, which is also a defensible move with the right LP." },
+      { type: "note", text: "UNCONFIRMED, transcript was unclear: Andrew referenced his own experience at what sounded like \u201cMave and Vaz,\u201d and Iqram's experience with what sounded like \u201cSmall Talk and Hints\u201d (he corrected himself mid-sentence from Jelly). Need the correct company names and one line each on what happened before any of this goes near the deck." },
+      { type: "note", text: "Proposed deck change, pending Andrew's go: rewrite the why-us slide to lead with failures alongside Venmo, rather than Venmo alone. Deck untouched until approved." }
     ]
   },
   {
@@ -210,7 +261,13 @@ window.DOCS = [
         "Citation for the 20,000+ YC applicants per batch figure.",
         "Accelerator or fund? \u201cFirst AI-native accelerator\u201d and \u201c$10M fund writing $500K checks\u201d imply different structures. Pick the word.",
         "If accelerator: does the headline slot go to AI-native, or to we-jelly-all-day? They can't both be the one line an LP remembers.",
-        "Which portfolio tool gets built first, and is it portfolio-only or public?"
+        "Which portfolio tool gets built first, and is it portfolio-only or public?",
+        "Mental health: is it a third bullet on the support slide, or its own slide?",
+        "How much of Andrew's personal story goes into the LP deck vs stays for founder conversations?",
+        "Is mental health part of a jelly session, or a separate kind of session with a different name?",
+        "Andrew's own companies: transcript sounded like \u201cMave\u201d and \u201cVaz.\u201d Correct names, and one line each on what happened?",
+        "Iqram's post-Venmo projects: transcript sounded like \u201cSmall Talk\u201d and \u201cHints.\u201d Correct names?",
+        "Does \u201cwe don't have lots of money\u201d get said out loud to LPs, or stay implicit as \u201coperators, not an institution\u201d?"
       ]}
     ]
   },
@@ -223,7 +280,9 @@ window.DOCS = [
       { type: "p", text: "Andrew sends ideas freeform. They land here verbatim-ish, dated, and stay here until he says which ones become edits. Nothing in this section has been applied to the website or the deck." },
       { type: "log", items: [
         { date: "Aug 14", text: "Why now has a real answer: prototypes, MVPs and first users are all far easier than ever. Non-engineers can do it. Engineers with busy jobs and families can do it on the side. That unlocks a generation of people to invest in. \u2192 written up on the Why now page; deck slide 4 rewrite proposed, not made." },
-        { date: "Aug 14", text: "Help Somebody as the first actually AI-native accelerator. Not AI to optimize our operations \u2014 reinventing what an accelerator is. Example: I can be every company's growth engineer long term; we build tools for all our companies that help them all. \u2192 written up on the AI-native page; needs one call on accelerator vs fund, and where it goes in the deck." }
+        { date: "Aug 14", text: "Help Somebody as the first actually AI-native accelerator. Not AI to optimize our operations \u2014 reinventing what an accelerator is. Example: I can be every company's growth engineer long term; we build tools for all our companies that help them all. \u2192 written up on the AI-native page; needs one call on accelerator vs fund, and where it goes in the deck." },
+        { date: "Aug 14", text: "Mental health as a thing we help with. Andrew has been through a lot across a few startups, learned a lot about founders and himself, thinks it's one of the biggest levers on founder success. Top reason startups fail is cofounder issues. Wants to foster the cofounder relationship where there are multiple people, and support solo founders and individual cofounders on their state of mind. \u2192 written up on the Mental health page; proposed as a bullet or a slide on the deck, not made." },
+        { date: "Aug 14", text: "Having no money and having failed a lot is a huge advantage. Most founders fail; we're failing. VCs who haven't been through a startup failure have no idea what founders are going through \u2014 some have seen a near-failure like Venmo, but that's different. Andrew's own experience at [Mave? Vaz?] and Iqram's with [Small Talk? Hints?] really helps. \u2192 written up on the Failure as edge page; why-us slide rewrite proposed, not made. Company names need confirming." }
       ]},
       { type: "note", text: "Keep dumping. Each one gets logged here, plus a written-up page if it's substantial, plus a one-line proposed change so you can approve or kill it." }
     ]

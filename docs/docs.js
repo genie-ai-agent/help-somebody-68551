@@ -7,6 +7,8 @@
 // DECIDED Aug 14 (latest call): scout carry is 10% of the deal carry, the Wefunder default. The 33%
 // equal-thirds call made earlier the same day is superseded, and kept on the page for the trail.
 // Eugene confirmed as a person, she/her, building plant AI; startup name still unknown.
+// Wefunder contract types researched and written up (section: Contract types). The "equity plus cash back"
+// instrument does not exist as one contract: revenue share is debt. Per-vehicle instrument picks are proposals.
 // One deck edit PROPOSED, NOT MADE. Deck and website untouched.)
 
 window.DOCS = [
@@ -410,6 +412,39 @@ window.DOCS = [
     ]
   },
   {
+    slug: "contracts",
+    nav: "Contract types",
+    title: "Wefunder contract types, and which fits what",
+    kicker: "Deal mechanics",
+    blocks: [
+      { type: "p", text: "Andrew's hunch, answered first: the contract you were remembering is the Revenue Share Loan. It does pay cash back, quarterly or annually, but it is not equity. There is no single Wefunder contract that gives you both an equity stake and cash back. If we want both on one deal, that is two instruments stacked, not one." },
+      { type: "rows", rows: [
+        ["SAFE", "Not a loan. No interest, no maturity, no repayment obligation. Converts into preferred stock at the next priced round, priced at the valuation cap or the discount, whichever is better for us. If it never converts, we never see a return."],
+        ["Convertible note", "An unsecured loan that converts at a qualified priced round, typically one raising at least $1M. Has the cap and discount of a SAFE plus an interest rate and a maturity date. If it does not convert by maturity, it gets repaid like a loan."],
+        ["Preferred stock (priced round)", "Equity today at a set pre-money or post-money valuation, so ownership percentage is known on day one. Usually built on the NVCA templates. Slower and more expensive to paper."],
+        ["Revenue share loan", "A promissory note repaid out of a percentage of revenue, capped at a total repayment multiple, typically 1.5x to 3.0x. Cash back quarterly or annually. No equity, no upside past the cap."],
+        ["Promissory note", "A plain loan, structured like a car loan: interest rate, maturity, fixed payment schedule. No equity, no revenue link."]
+      ]},
+      { type: "p", text: "The terms that actually decide a revenue share: gross or net revenues (net excludes returns and shipping), the revenue percentage, the repayment amount (the 1.5x to 3.0x cap), quarterly or annual disbursement, deferral (by default a company can miss one payment without being in default), and secured or unsecured against business property. A straight promissory note adds three more to look for: the grace period (these loans default to starting 30 days after the crowdfunding deadline, but can be deferred to something like the day the business opens), a personal guarantee from an individual, and subordination to a bank lender." },
+      { type: "note", text: "Wefunder's own guidance to founders: for an early-stage brick-and-mortar with expected cash flow, use a revenue share, set terms for at least a 2X return multiple, and model six years of projected cash flow. Worth knowing because it is what a spa raising on the platform will most likely be offered, so it is the paper we should expect to see." },
+      { type: "p", text: "How I would map instruments onto our vehicles. Recommendation, not a decision." },
+      { type: "rows", rows: [
+        ["Venmo alums, Fin alums, Wefunder alums, General", "SAFE, or a convertible note if the founder wants a return floor. These are power-law bets where the equity outcome is the only one that matters, and capping upside at 3x defeats the point of the fund."],
+        ["Teenagers", "SAFE. Small checks, long horizon, and no maturity date is far kinder to a first-time teenage founder than a note that can come due while they are in college."],
+        ["Spas: Good Hot, Archimedes Banya", "Revenue share, 2.5x to 3.0x cap, net revenues, quarterly, with deferral. These are cash-flow businesses that will most likely never exit, so equity in them is illiquid forever and rev share is the honest instrument."],
+        ["Spas: Alchemy Springs", "Different case. Profitable at roughly 30% of capacity with a 6,000 sq ft build planned for 2026, which is an expansion story. If they offer equity or a convertible, take it. Capping that one at 2.5x is the mistake to avoid."]
+      ]},
+      { type: "p", text: "The trade to keep in view on rev share: the multiple is a ceiling. If a spa we back turns into eight locations, a 2.5x cap means we made 2.5x on a business that went up tenfold, and we own none of it. The other side is that rev share starts paying in year one instead of year eight, and for a business that will never exit, that is the only way money ever comes back." },
+      { type: "note", text: "Two structural facts about Reg CF worth holding before we size checks. A company can raise at most $5M in any 12-month period this way, so a $500K first check is 10% of an entire year of raise capacity for that company. Accredited investors have no per-investor Reg CF cap, but the company-side cap still binds." },
+      { type: "note", text: "UNCONFIRMED, and it is one email to Ahmed since he runs Funds at Wefunder: can a fund or LLC rather than an individual invest on-platform, and do revenue share disbursements flow to an entity cleanly? Same email should ask whether Wefunder publishes a standard scout or referral carry, since our 10% call cites their default and I could not verify that number publicly." },
+      { type: "list", items: [
+        "Open: do we want debt inside Fund I at all? LPs signed up for equity. A rev share paying 2.5x over six years is a fine return but it is not what a venture fund is for, which is another argument for the spas living in SPVs.",
+        "Open: taxes. Rev share and promissory note payments are ordinary income in the year received, not long-term capital gains at exit. On $500K checks that gap is material. Confirm with an accountant before the first spa deal gets papered.",
+        "Open: if spas are one SPV per property, each SPV could carry a different instrument. Do we want that flexibility, or one standard template so Rachel is not negotiating three different contracts?"
+      ]}
+    ]
+  },
+  {
     slug: "deck",
     nav: "The deck",
     title: "Deck structure",
@@ -532,7 +567,8 @@ window.DOCS = [
         { date: "Aug 14", text: "Two corrections from Andrew: Mirman is not involved with Modal, and Eugene is a person — she is doing some sort of plant AI, startup name unknown. → People we backed rewritten: Mirman moved to chat.dev, Modal separated out with no owner, and the 'Modal is the biggest win' line deleted since it rested on the dead pairing. Eugene's entry updated on First checks; I searched for the company and found nothing citable, so no guess is recorded. One deck edit proposed on slide 7, not made." },
         { date: "Aug 14", text: "Andrew: 33%, so we're equal partners with the scout. \u2192 Scout economics decided. One third of the deal carry, superseding both my flat 10% and my two-tier 10 / 40\u201350 proposal, with the reasoning written up: it's legible in one sentence, it clears the 5\u201315% market range without matching Factorial's 50%, it matches the 5%-of-portfolio position math, and it removes the per-deal negotiation that would cost us relationships. Also ran the payout math, roughly $1.17M each on a single $18M winner, and flagged the two mechanics that still need counsel: whether it's drafted as 'one third' rather than 33%, and whether the third sits after fund expenses and LP preference. Website and deck untouched." },
         { date: "Aug 14", text: "Iqram invested in Modal with Matt Hartman / Factorial Capital. \u2192 Modal restored to People we backed, attributed to Iqram via Factorial, with the publicly citable $1B+ mark. Bigger find while verifying: Factorial's sourcing model pays founder-partners 50% of the deal carry, and Factorial names the founders of Hugging Face, Venmo and Giphy as its investing partners, so Iqram is already inside this exact model. Scout economics revised from a flat 10% to a proposed two-tier 10 / 40\u201350, with Factorial logged as both template and competitor. Website and deck untouched." },
-        { date: "Aug 14", text: "Andrew: let's go back to 10% for now, that's what Wefunder defaults to, and we're also committing to helping all these companies \u2014 we'll be a huge part of why they succeed. \u2192 Scout economics reverted to 10% of deal carry, deal-by-deal, no netting. The whole 33% case is kept on the page marked SUPERSEDED so it never has to be re-derived, and the 10% math now sits alongside it: about $350K to a scout on an $18M winner, and the GPs keeping 90\u201395% of the carry pool instead of 67\u201383%, which is what actually funds the help we're promising. Added the 'why 10 and not 33' reasoning in Andrew's terms. Flagged honestly that I could not find a published Wefunder scout number to verify the default against. Website and deck untouched." }
+        { date: "Aug 14", text: "Andrew: let's go back to 10% for now, that's what Wefunder defaults to, and we're also committing to helping all these companies \u2014 we'll be a huge part of why they succeed. \u2192 Scout economics reverted to 10% of deal carry, deal-by-deal, no netting. The whole 33% case is kept on the page marked SUPERSEDED so it never has to be re-derived, and the 10% math now sits alongside it: about $350K to a scout on an $18M winner, and the GPs keeping 90\u201395% of the carry pool instead of 67\u201383%, which is what actually funds the help we're promising. Added the 'why 10 and not 33' reasoning in Andrew's terms. Flagged honestly that I could not find a published Wefunder scout number to verify the default against. Website and deck untouched." },
+        { date: "Aug 14", text: "Andrew: look into the Wefunder deal types, learn all the contract types, and help me understand which investment types suit which deals. He thought one of them was equity plus cash back. \u2192 new Contract types page. Answered the hunch first: the cash-back instrument is the Revenue Share Loan and it is debt, not equity, and no single Wefunder contract does both. Documented all five contracts (SAFE, convertible note, preferred stock, revenue share loan, promissory note) with the terms that decide each, plus Wefunder's own advice to brick-and-mortar founders, which is a revenue share at 2X or better with six years of modeled cash flow. Mapped instruments onto our vehicles: SAFEs for the startup pools, revenue share for the single-location spas, equity or a convertible for Alchemy Springs because it has an expansion story. Flagged the Reg CF $5M per-company annual cap, the ordinary-income tax treatment of rev share, and one email to Ahmed on whether a fund can invest on-platform. Website and deck untouched." }
       ]},
       { type: "note", text: "Keep dumping. Each one gets logged here, plus a written-up page if it's substantial, plus a one-line proposed change so you can approve or kill it." }
     ]

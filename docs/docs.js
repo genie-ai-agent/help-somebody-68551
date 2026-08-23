@@ -1,8 +1,9 @@
 // Help Somebody — internal docs
 // Everything here was gathered from Andrew + Iqram in the Genie thread, or verified
 // from public sources. Anything unverified is marked UNCONFIRMED.
-// Last updated: 2026-08-14 (Andrew corrected the record: Matt Mirman is NOT involved with Modal.
-// Traction attribution reopened: Modal now has no owner and the 'biggest win' claim is unsourced.
+// Last updated: 2026-08-14 (Modal attribution RESOLVED: Iqram invested via Matt Hartman / Factorial Capital.
+// Modal is back on the traction list as a co-investment, not as Mirman's company. Factorial's own scout
+// model (50% of deal carry to sourcing partners, Iqram among them) reopens the scout percentage question.
 // Eugene confirmed as a person, she/her, building plant AI; startup name still unknown.
 // One deck edit PROPOSED, NOT MADE. Deck and website untouched.)
 
@@ -174,19 +175,19 @@ window.DOCS = [
         { name: "Matt Mirman", company: "chat.dev", desc: "Turns a conversation into working software", tag: "Corrected Aug 14" },
         { name: "Kiaan Pillay", company: "Stitch", desc: "Connects African apps to bank accounts", tag: "Publicly citable" },
         { name: "Jacques Marco", company: "Axis", desc: "Free, instant money transfers across Egypt" },
-        { name: "Phoebe Gates & Sophia Kianni", company: "Phia", desc: "Finds shoppers a better price instantly" }
+        { name: "Phoebe Gates & Sophia Kianni", company: "Phia", desc: "Finds shoppers a better price instantly" },
+        { name: "Iqram, via Factorial", company: "Modal", desc: "Instant supercomputers for anyone building AI", tag: "Resolved Aug 14 \u00b7 co-invest, reportedly $1B+" }
       ]},
       { type: "p", text: "Also backed, founder attribution still open. Descriptions drafted, not approved:" },
       { type: "people", items: [
         { name: "Founder TBD", company: "Flutterwave", desc: "Lets African businesses accept payments anywhere", tag: "UNCONFIRMED" },
         { name: "Founder TBD", company: "Zo", desc: "Turns homes into hacker houses for founders", tag: "UNCONFIRMED" },
         { name: "Founder TBD", company: "Light Shift", desc: "Description needed \u2014 what does it do?", tag: "UNCONFIRMED" },
-        { name: "Owner unknown", company: "Modal", desc: "Instant supercomputers for anyone building AI", tag: "OWNERLESS \u2014 do we claim it at all?" }
       ]},
       { type: "note", text: "Tye Wang and Rob Cheung appeared on an earlier list of people backed, company unknown. Stitch has a public receipt: TechCrunch's funding story names Iqram in the angel round." },
-      { type: "note", text: "RESOLVED Aug 14, direct from Andrew: Mirman is not involved with Modal. So Mirman moves to chat.dev, which matches public record (Anarchy / chat.dev is his). Modal is separated out with no owner attached, since Erik Bernhardsson founded it and nobody here has claimed the relationship." },
-      { type: "note", text: "The bigger casualty: 'Modal is the biggest win' was load-bearing on the traction slide, and it rested on the Mirman pairing that just got killed. Deleted from this page rather than left standing. Two things need Andrew or Iqram before traction is honest again \u2014 does Modal belong on the list at all (did Iqram get in through some other route?), and if it comes off, what is the biggest win instead? Stitch is the one with a public receipt, so it is the obvious candidate." },
-      { type: "note", text: "PROPOSED DECK EDIT, NOT MADE. Slide 7 currently reads 'Matt Mirman / Modal' as the lead item. Proposed: change the company line under his name to chat.dev, and if Modal comes off the list, promote Kiaan Pillay / Stitch into the lead slot since it is publicly citable. Waiting on Andrew." }
+      { type: "note", text: "RESOLVED Aug 14, direct from Andrew, in two parts. Part one: Mirman is not involved with Modal, so he moves to chat.dev, which matches public record (Anarchy / chat.dev is his). Part two: Modal stays on the list, because Iqram invested in it with Matt Hartman / Factorial Capital. Both halves of the old 'Matt Mirman / Modal' line were wrong, but for different reasons \u2014 the wrong Matt, and the wrong kind of relationship. Modal was founded by Erik Bernhardsson; Iqram's exposure runs through Factorial." },
+      { type: "note", text: "Modal is back as the strongest item on the list, and it is publicly citable: Factorial's portfolio includes Modal, and Hartman has described it publicly as 'AI hosting infrastructure, recently valued at over $1 billion.' That receipt is stronger than Stitch. But it has to be phrased honestly, because this is a co-investment alongside a fund, not a company Iqram found and led. 'Invested in Modal alongside Factorial' is true. 'We backed Modal' is a stretch an LP will test." }, { type: "note", text: "Second-order value here, bigger than the logo: Factorial's investing partners are, per Factorial's own words, 'the founders of Hugging Face, Venmo, Giphy and several other technically deep operators.' That is Iqram, on the record, already operating as a founder-partner inside somebody else's fund. It is a credential for the GP slide and it is proof the founder-sourcing model works. It also means Factorial is a template and a competitor at once. See the Scout economics page." },
+      { type: "note", text: "PROPOSED DECK EDIT, NOT MADE. Slide 7's lead item currently reads 'Matt Mirman / Modal', which is wrong twice over. Proposed: split it into two lines, 'Matt Mirman / chat.dev' and 'Modal / invested alongside Factorial', and keep Modal in the lead slot on the strength of the $1B+ mark. Waiting on Andrew before the deck is touched." }
     ]
   },
   {
@@ -218,7 +219,7 @@ window.DOCS = [
         { name: "Mahamed Dinki", company: "Wefunder alums vehicle", desc: "Engineer at Wefunder, hiring full-stack engineers under his own name. Andrew's word was 'maybe', so this one is a lean and not a yes.", tag: "Maybe" }
       ]},
       { type: "note", text: "Ahmed and Dinki come out of Andrew's day job rather than the Venmo tree, which is the first evidence that the Wefunder alums vehicle has a real pipeline and not just a label. Both are operators inside a fundraising platform, so they already know how a raise works from the inside." },
-      { type: "note", text: "Flag on Matt Mirman before anything reaches the deck: he is listed on the People we backed page against Modal, but chat.dev is his company (Anarchy). Modal was founded by Erik Bernhardsson. One of those two lines is wrong, and the deck's traction slide currently reads 'Modal / Matt Mirman leads'. Needs one word from Andrew; deck untouched until then." },
+      { type: "note", text: "Matt Mirman flag CLEARED Aug 14. He is chat.dev (Anarchy), full stop, and Modal is a separate relationship of Iqram's through Factorial. Both now sit correctly on the People we backed page. The deck's slide 7 still carries the old wrong pairing; edit proposed there, not made." },
     ]
   },
   {
@@ -285,8 +286,10 @@ window.DOCS = [
         ["Pro-rata variant", "Scout gets 1/N of the fund's carry pool for one of N deals. Simpler accounting, and it makes scouts care about the whole portfolio, not just their own company."],
         ["Cash bounty", "About 1% of the amount invested, paid now instead of in a decade. $500K check means roughly $5K."],
         ["Deployment budget", "$50K\u2013$250K per scout to write $10K\u2013$50K checks with real discretion. Optional, and a much bigger commitment than carry alone."],
-        ["Time to payout", "7\u201312 years. Carry is back-ended, so scout comp is only meaningful to people who are already financially fine."]
+        ["Time to payout", "7\u201312 years. Carry is back-ended, so scout comp is only meaningful to people who are already financially fine."],
+        ["The comparable that matters most", "Factorial Capital pays its sourcing partners HALF the carried interest on deals they bring (Hartman, TechCrunch, Jan 2025). Same ~$500K check size as us, ~30 target companies, and the partners are technical founders \u2014 including the founders of Hugging Face, Venmo and Giphy."]
       ]},
+      { type: "note", text: "MATERIAL NEW INPUT Aug 14, and it undercuts my own recommendation below, so read this before the recommendation. Iqram got into Modal through Matt Hartman / Factorial Capital, and Factorial is not a normal fund with a scout program bolted on. Its entire sourcing model is founder-partners who take 50% of the deal carry. That is five times the 10% I recommended, and it is the closest comparable in existence for what we are building: same check size, same founder-sourcing premise, and Iqram is personally on the other side of it. Two consequences. One, any operator we approach may already know what Factorial pays, so 10% reads as cheap by comparison. Two, Factorial is a competitor as well as a template, because it is recruiting exactly the people we want to recruit." },
       { type: "p", text: "Why the standard number is wrong for us, in both directions. Fund I is $10M writing $500K checks, so it holds roughly 18\u201320 positions. One sourced deal is about 5% of the entire fund, versus about 3% at a 30-company fund and under 1% at a big multi-stage. A scout who brings us one company is contributing a much larger share of the portfolio than a Sequoia scout is, which argues for the high end of the range. Pulling the other way: our whole thesis is that this community backs each other, so if everyone is a scout, generous per-deal terms compound into a carry pool that no longer covers the GPs." },
       { type: "note", text: "My recommendation, to accept or shoot down: 10% of the carry on the deal, paid deal-by-deal, no cash, no discretion, no minimum. Published as one flat public number rather than negotiated case by case." },
       { type: "p", text: "The reasoning behind each part of that:" },
@@ -296,8 +299,10 @@ window.DOCS = [
         ["Why deal-by-deal, not fund-netted", "Under netting, a scout can source our single best company and still be paid zero because the fund overall is under 1x. That is technically standard and it would poison a community fund. Pay on their winner."],
         ["Why publish one number", "Every negotiation with a Venmo alum about their cut is a relationship cost we don't need. A published number turns comp into a non-conversation."],
         ["Why no cash bounty by default", "Cash finders' fees are where broker-dealer risk lives. Offer it only as an exception, only for people who genuinely need cash now, and only after counsel signs off."],
-        ["Why no deployment budget in Fund I", "Giving out discretion over our money is a v2 problem. Sourcing first, checkbooks later."]
+        ["Why no deployment budget in Fund I", "Giving out discretion over our money is a v2 problem. Sourcing first, checkbooks later."],
+        ["Where Factorial breaks this", "Factorial pays 50%, but its partners do the technical diligence, not just the intro. If 10% is going to hold, the ask has to be genuinely light: a warm intro, not a workload. If we want serious operators doing real evaluation, we are closer to Factorial's number than to mine."]
       ]},
+      { type: "note", text: "REVISED RECOMMENDATION, Aug 14, superseding the flat 10% above: publish two tiers instead of one number. 10% for a warm intro on a deal we diligence ourselves. 40\u201350% for a partner who sources it, does the work, and holds the relationship on something we would never have seen. That is Factorial's model with a lighter bottom rung. It is defensible to an LP because the expensive tier only pays out on deals that would not otherwise exist in the portfolio, and it means an operator choosing between us and Factorial is not choosing on price. Not decided, and still going past counsel before anyone is promised anything." },
       { type: "p", text: "Now the other question, and it changed shape on Aug 14 when Andrew filled in who these people are: Jonah is his son, Rachel is his wife. Neither of these is supposed to be their job, it's supposed to be fun for them. That single sentence resolves most of the comp question below, because comp is not the motivator here, so the design goal flips from 'pay them fairly' to 'give them something real to own without creating an obligation that stops being fun.' The one live tension: Andrew is also now considering Jonah as an actual GP, and GP is a job." },
       { type: "p", text: "The three structures still worth knowing, because 'it's for fun' does not exempt a vehicle from having terms written down:" },
       { type: "people", items: [
@@ -326,7 +331,9 @@ window.DOCS = [
         "Open: does Rachel want terms at all, or is 'she picks the spas, we write the checks' the entire arrangement? Carry on three SPVs may be more paperwork than it's worth to her.",
         "Open: do outside LPs see the family leads up front, or does Help Somebody keep family-led vehicles on Andrew and Iqram's own money and out of the fund entirely?",
         "Open: does Rachel have spa or hospitality background beyond being a customer? That's the difference between a lead and a very good taste-maker, and both are fine as long as we're honest about which.",
-        "Open: accept 10% as the published scout number, or pick a different one?",
+        "Open: flat 10%, the two-tier 10 / 40\u201350 split, or match Factorial's flat 50%?",
+        "Open: will Iqram just ask Hartman how the Factorial partner model works in practice before we set ours? He is already inside it, so this is a 20-minute call, not research.",
+        "Open: is Factorial competing with us for the same founder-partners, and does that change what we can offer or who we approach first?",
         "Open: deal-by-deal carry or fund-netted? I'd argue hard for deal-by-deal in a community fund.",
         "Open: is scout carry offered to everyone in the community, or is it an invited list?",
         "Open: does a scout have to have jellied with us before they can source? That would make the scout program part of the product instead of a bounty scheme.",
@@ -381,7 +388,7 @@ window.DOCS = [
         "Why now: cheaper to build, more medium outcomes",
         "$500K, and then we jelly all day",
         "Why us: Venmo, twice over",
-        "Traction: people we backed (currently leads with Modal / Matt Mirman \u2014 that pairing is wrong; edit proposed, not made)",
+        "Traction: people we backed (currently leads with 'Modal / Matt Mirman' \u2014 wrong on both halves; two-line split proposed, not made)",
         "First checks: three named operators",
         "Where they come from: the Venmo network",
         "Fund math",
@@ -454,9 +461,10 @@ window.DOCS = [
         "Does the resume-only rule apply to Jasmine? She has no resume yet, and the build is the story.",
         "Goodnook and allowance: one line each on what they are and who is behind them.",
         "Eugene: what is the startup called, and is it plant identification/care, ag and greenhouse, or plant biology? Also her last name.",
-        "Does Modal stay on the People we backed list at all now that the Mirman pairing is dead? If Iqram is in it, through whom?",
-        "If Modal comes off, what is the biggest win we lead traction with? Stitch is the only one with a public receipt.",
-        "Approve the proposed slide 7 edit (Mirman to chat.dev)? Nothing on the deck changes until you say so.",
+        "RESOLVED Aug 14: Modal stays. Iqram invested with Matt Hartman / Factorial Capital. Not Mirman, not a lead.",
+        "Approve the proposed slide 7 edit? Split into 'Matt Mirman / chat.dev' and 'Modal / invested alongside Factorial'. Nothing on the deck changes until you say so.",
+        "How hard do we lean on Modal? It's the biggest mark on the list ($1B+) but it's a co-invest through a fund, not a deal we led. Phrasing matters.",
+        "Does Iqram's Factorial partnership go on the GP slide? 'Already a founder-partner at a fund doing exactly this' is a strong line, if he's comfortable naming it.",
         "Is the Wefunder alums vehicle for current Wefunder people like Ahmed and Dinki, or only for people who leave to found something?",
         "Does \u201cwe don't have lots of money\u201d get said out loud to LPs, or stay implicit as \u201coperators, not an institution\u201d?",
         "Spas: does the money come out of Fund I, or one SPV per property so the software fund story stays clean?",
@@ -487,6 +495,7 @@ window.DOCS = [
         { date: "Aug 14", text: "Jonah is Andrew's son. Rachel is Andrew's wife. Neither one is meant to be their job, but it will be fun for them. Maybe Jonah is actually a GP. \u2192 Scout economics page reframed: comp isn't the motivator, so the design goal is ownership without obligation. Vehicles #3 and #4 updated with the relationships. Flagged the age question on Jonah as a GP, and the family-office positioning question for outside LPs. Website and deck untouched." },
         { date: "Aug 14", text: "For Wefunder, we want to invest in Ahmed and maybe Dinki. → resolved from public record as Ahmed Ahmed (Head of Funds, Wefunder) and Mahamed Dinki (engineer, Wefunder), filed on the First checks page and rolled into Vehicles entry #6. Dinki carries the 'maybe' tag as sent. Website and deck untouched." },
         { date: "Aug 14", text: "Two corrections from Andrew: Mirman is not involved with Modal, and Eugene is a person — she is doing some sort of plant AI, startup name unknown. → People we backed rewritten: Mirman moved to chat.dev, Modal separated out with no owner, and the 'Modal is the biggest win' line deleted since it rested on the dead pairing. Eugene's entry updated on First checks; I searched for the company and found nothing citable, so no guess is recorded. One deck edit proposed on slide 7, not made." },
+        { date: "Aug 14", text: "Iqram invested in Modal with Matt Hartman / Factorial Capital. \u2192 Modal restored to People we backed, attributed to Iqram via Factorial, with the publicly citable $1B+ mark. Bigger find while verifying: Factorial's sourcing model pays founder-partners 50% of the deal carry, and Factorial names the founders of Hugging Face, Venmo and Giphy as its investing partners, so Iqram is already inside this exact model. Scout economics revised from a flat 10% to a proposed two-tier 10 / 40\u201350, with Factorial logged as both template and competitor. Website and deck untouched." }
       ]},
       { type: "note", text: "Keep dumping. Each one gets logged here, plus a written-up page if it's substantial, plus a one-line proposed change so you can approve or kill it." }
     ]

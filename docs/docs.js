@@ -1,7 +1,7 @@
 // Help Somebody — internal docs
 // Everything here was gathered from Andrew + Iqram in the Genie thread, or verified
 // from public sources. Anything unverified is marked UNCONFIRMED.
-// Last updated: 2026-08-14 (Added the Spas page: Good Hot, Alchemy Springs, Archimedes Banya)
+// Last updated: 2026-08-14 (Venmo alums targets: Goodnook, allowance, Eugene, Matt Mirman. Wefunder alums: Ahmed Ahmed, Mahamed Dinki)
 
 window.DOCS = [
   {
@@ -180,7 +180,8 @@ window.DOCS = [
         { name: "Founder TBD", company: "chat.dev", desc: "Turns a conversation into working software", tag: "UNCONFIRMED" },
         { name: "Founder TBD", company: "Light Shift", desc: "Description needed \u2014 what does it do?", tag: "UNCONFIRMED" }
       ]},
-      { type: "note", text: "Tye Wang and Rob Cheung appeared on an earlier list of people backed, company unknown. Stitch has a public receipt: TechCrunch's funding story names Iqram in the angel round." }
+      { type: "note", text: "Tye Wang and Rob Cheung appeared on an earlier list of people backed, company unknown. Stitch has a public receipt: TechCrunch's funding story names Iqram in the angel round." },
+      { type: "note", text: "Attribution conflict, Aug 14: Andrew named Matt Mirman alongside chat.dev, which matches public record (Anarchy / chat.dev is his). The Modal pairing above came from an earlier pass and is probably a mis-merge, since Modal was founded by Erik Bernhardsson. Left both here rather than silently rewriting traction." }
     ]
   },
   {
@@ -201,7 +202,18 @@ window.DOCS = [
         { name: "Jasmine", company: "Solar power technology", desc: "Teenager in Berkeley. First named person for the Teenagers vehicle, and the youngest name in the pipeline.", tag: "Want to invest \u00b7 last name needed" }
       ]},
       { type: "note", text: "Jasmine is the proof that the Teenagers vehicle is a real pipeline and not a category on a list. She's also the sharpest possible illustration of the why-now argument: a teenager building hardware-adjacent technology that used to require a lab and a payroll." },
-      { type: "note", text: "Rule conflict to resolve before she goes on any artifact: the house rule for first checks is resume only, never say what they're working on. Jasmine is the inverse \u2014 what she's building is the interesting part, and she has no resume yet by design. Either she's an exception, or she lives on a different slide from the three Venmo operators." }
+      { type: "note", text: "Rule conflict to resolve before she goes on any artifact: the house rule for first checks is resume only, never say what they're working on. Jasmine is the inverse \u2014 what she's building is the interesting part, and she has no resume yet by design. Either she's an exception, or she lives on a different slide from the three Venmo operators." },
+      { type: "p", text: "Third list, added Aug 14: named targets sorted by which vehicle they would come through. These are wants, not commitments, and none of them are on the deck or the website." },
+      { type: "people", items: [
+        { name: "Goodnook", company: "Venmo alums vehicle", desc: "No public detail I could verify. Need one line on what it is and who the founder is.", tag: "Want to invest · needs detail" },
+        { name: "allowance", company: "Venmo alums vehicle", desc: "Lowercase as Andrew wrote it. The name suggests kids and money, which would rhyme with Dasmer's Cash App Families work, but that is a guess and not verified.", tag: "Want to invest · needs detail" },
+        { name: "Eugene", company: "Venmo alums vehicle", desc: "Unclear whether Eugene is the person or the company. Need a last name or a URL.", tag: "Want to invest · ambiguous" },
+        { name: "Matt Mirman", company: "chat.dev", desc: "Turns a conversation into working software. Already appears on the People we backed page, so this reads as a follow-on rather than a first check.", tag: "Want to invest" },
+        { name: "Ahmed Ahmed", company: "Wefunder alums vehicle", desc: "Head of Funds at Wefunder. Former professional kickboxer and bioengineer, UC San Diego, self-described Form C connoisseur.", tag: "Want to invest" },
+        { name: "Mahamed Dinki", company: "Wefunder alums vehicle", desc: "Engineer at Wefunder, hiring full-stack engineers under his own name. Andrew's word was 'maybe', so this one is a lean and not a yes.", tag: "Maybe" }
+      ]},
+      { type: "note", text: "Ahmed and Dinki come out of Andrew's day job rather than the Venmo tree, which is the first evidence that the Wefunder alums vehicle has a real pipeline and not just a label. Both are operators inside a fundraising platform, so they already know how a raise works from the inside." },
+      { type: "note", text: "Flag on Matt Mirman before anything reaches the deck: he is listed on the People we backed page against Modal, but chat.dev is his company (Anarchy). Modal was founded by Erik Bernhardsson. One of those two lines is wrong, and the deck's traction slide currently reads 'Modal / Matt Mirman leads'. Needs one word from Andrew; deck untouched until then." },
     ]
   },
   {
@@ -218,12 +230,12 @@ window.DOCS = [
       ]},
       { type: "p", text: "Second list, added Aug 14: audience-scoped vehicles. These aren't different structures, they're different pools of people. Each one is a syndicate or small fund defined by who it backs, and each could carry its own LP base drawn from that same community. Andrew's raw list, in his order, all still ideas:" },
       { type: "people", items: [
-        { name: "1 \u00b7 Venmo alums", company: "Audience-scoped", desc: "The founding pool. People who built Venmo with us, backing each other. This is the one that already has a live pipeline: Dasmer, Chris, Shreyans.", tag: "Idea \u00b7 closest to real" },
+        { name: "1 \u00b7 Venmo alums", company: "Audience-scoped", desc: "The founding pool. People who built Venmo with us, backing each other. This is the one that already has a live pipeline: Dasmer, Chris, Shreyans. Named targets added Aug 14: Goodnook, allowance, Eugene, and Matt Mirman (chat.dev).", tag: "Idea \u00b7 closest to real" },
         { name: "2 \u00b7 Jelly", company: "Audience-scoped", desc: "Founders from the JellyJelly community. The sessions are the sourcing mechanism, so deal flow and community are the same motion.", tag: "Idea" },
         { name: "3 \u00b7 Teenagers", company: "Audience-scoped", desc: "Youngest builders, first checks. The why-now argument at its extreme: a 16-year-old can ship an MVP and get users now. First named person: Jasmine, Berkeley, solar power technology.", tag: "Idea \u00b7 has a live name" },
         { name: "4 · Spas", company: "Vertical, not audience", desc: "Confirmed Aug 14: literally spas. Physical bathhouses in the Bay Area. Three named targets so far: Good Hot (Richmond), Alchemy Springs (SF), Archimedes Banya (SF). Full detail on the Spas page.", tag: "Confirmed · 3 named targets" },
         { name: "5 \u00b7 General", company: "Audience-scoped", desc: "No community filter. Anyone who applies, which is the widest possible version and probably the highest-volume, lowest-signal one.", tag: "Idea" },
-        { name: "6 \u00b7 Wefunder alums", company: "Audience-scoped", desc: "Founders and operators out of Wefunder. Andrew's current network, and a crowd already fluent in raising from their own community.", tag: "Idea" },
+        { name: "6 \u00b7 Wefunder alums", company: "Audience-scoped", desc: "Founders and operators out of Wefunder. Andrew's current network, and a crowd already fluent in raising from their own community. First named targets, Aug 14: Ahmed Ahmed (Head of Funds) and, as a maybe, Mahamed Dinki (engineer).", tag: "Idea" },
         { name: "7 \u00b7 Fin alums", company: "Audience-scoped", desc: "People out of Fin, Kortina's company with Sam Lessin. Adjacent to the Venmo tree through Kortina rather than through Iqram directly.", tag: "Idea" }
       ]},
       { type: "note", text: "Pattern worth naming: six of the seven are 'alumni of a thing we belong to.' That's a repeatable machine, not seven one-offs. Pick one community, run the vehicle, template it, run it again. 'General' is the odd one out because it has no community to draw LPs from." },
@@ -366,6 +378,9 @@ window.DOCS = [
         "Jasmine's last name, and what specifically she's building in solar? (Panels, storage, software, install?)",
         "How did Jasmine come to us, and is she the anchor for the Teenagers vehicle or a Fund I check?",
         "Does the resume-only rule apply to Jasmine? She has no resume yet, and the build is the story.",
+        "Goodnook, allowance, Eugene: one line each on what they are, and is Eugene a person or a company?",
+        "Matt Mirman: Modal, chat.dev, or both? The traction slide currently credits him with Modal.",
+        "Is the Wefunder alums vehicle for current Wefunder people like Ahmed and Dinki, or only for people who leave to found something?",
         "Does \u201cwe don't have lots of money\u201d get said out loud to LPs, or stay implicit as \u201coperators, not an institution\u201d?",
         "Spas: does the money come out of Fund I, or one SPV per property so the software fund story stays clean?",
         "Spas: equity, revenue share, or real estate, and is it the same instrument for all three?",
@@ -389,7 +404,9 @@ window.DOCS = [
         { date: "Aug 14", text: "Recap of two jellies lost in transit (five lost so far). Same failure-as-edge argument, plus a new beat: it was an advantage at Venmo too, since that was Iqram and Kortina's fifth or sixth project together. Most startups fail, we know how that feels, we've seen so many situations \u2014 [Maeve?] and [Boz?] and [Fin?], [Ense?] and [Smalltalk?] \u2014 and we get these founders. \u2192 folded into the Failure as edge page as the persistence argument, with the prior attempts named from public record." },
         { date: "Aug 14", text: "Jasmine, a teenager in Berkeley working on solar power technology, is someone we want to invest in. \u2192 filed on the First checks page as a non-Venmo pipeline entry, and linked to the Teenagers vehicle. Needs a last name; deck and website untouched." },
         { date: "Aug 14", text: "Seven vehicles we want to start, Andrew's list in order: 1 Venmo alums, 2 Jelly, 3 Teenagers, 4 Spas, 5 General, 6 Wefunder alums, 7 Fin alums. → filed on the Vehicles page as audience-scoped vehicles. 'Spas' unconfirmed. Nothing on the website or deck touched." },
-        { date: "Aug 14", text: "'Spas' means actual spas. Three we want to invest in so far: Good Hot in Richmond, Alchemy Springs in San Francisco, Archimedes Banya. → new Spas page with all three researched from public sources; Vehicles entry #4 updated from 'needs clarification' to confirmed. Website and deck untouched." }
+        { date: "Aug 14", text: "'Spas' means actual spas. Three we want to invest in so far: Good Hot in Richmond, Alchemy Springs in San Francisco, Archimedes Banya. → new Spas page with all three researched from public sources; Vehicles entry #4 updated from 'needs clarification' to confirmed. Website and deck untouched." },
+        { date: "Aug 14", text: "For the Venmo alumni fund, we want to invest in Goodnook, allowance, and Eugene. Also Matt Mirman, chat.dev. → filed on the First checks page as vehicle-scoped targets and rolled into Vehicles entry #1. Goodnook, allowance and Eugene all need one line of detail; Matt Mirman flagged against the Modal listing on the traction slide." },
+        { date: "Aug 14", text: "For Wefunder, we want to invest in Ahmed and maybe Dinki. → resolved from public record as Ahmed Ahmed (Head of Funds, Wefunder) and Mahamed Dinki (engineer, Wefunder), filed on the First checks page and rolled into Vehicles entry #6. Dinki carries the 'maybe' tag as sent. Website and deck untouched." },
       ]},
       { type: "note", text: "Keep dumping. Each one gets logged here, plus a written-up page if it's substantial, plus a one-line proposed change so you can approve or kill it." }
     ]

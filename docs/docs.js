@@ -1,7 +1,8 @@
 // Help Somebody — internal docs
 // Everything here was gathered from Andrew + Iqram in the Genie thread, or verified
 // from public sources. Anything unverified is marked UNCONFIRMED.
-// Last updated: 2026-08-14 (Venmo alums targets: Goodnook, allowance, Eugene, Matt Mirman. Wefunder alums: Ahmed Ahmed, Mahamed Dinki)
+// Last updated: 2026-08-14 (Scout economics page added: recommend 10% of deal carry, deal-by-deal.
+// Jonah proposed as Teenagers lead, Rachel as Spas lead — both UNCONFIRMED, no last names.)
 
 window.DOCS = [
   {
@@ -232,8 +233,8 @@ window.DOCS = [
       { type: "people", items: [
         { name: "1 \u00b7 Venmo alums", company: "Audience-scoped", desc: "The founding pool. People who built Venmo with us, backing each other. This is the one that already has a live pipeline: Dasmer, Chris, Shreyans. Named targets added Aug 14: Goodnook, allowance, Eugene, and Matt Mirman (chat.dev).", tag: "Idea \u00b7 closest to real" },
         { name: "2 \u00b7 Jelly", company: "Audience-scoped", desc: "Founders from the JellyJelly community. The sessions are the sourcing mechanism, so deal flow and community are the same motion.", tag: "Idea" },
-        { name: "3 \u00b7 Teenagers", company: "Audience-scoped", desc: "Youngest builders, first checks. The why-now argument at its extreme: a 16-year-old can ship an MVP and get users now. First named person: Jasmine, Berkeley, solar power technology.", tag: "Idea \u00b7 has a live name" },
-        { name: "4 · Spas", company: "Vertical, not audience", desc: "Confirmed Aug 14: literally spas. Physical bathhouses in the Bay Area. Three named targets so far: Good Hot (Richmond), Alchemy Springs (SF), Archimedes Banya (SF). Full detail on the Spas page.", tag: "Confirmed · 3 named targets" },
+        { name: "3 \u00b7 Teenagers", company: "Audience-scoped", desc: "Youngest builders, first checks. The why-now argument at its extreme: a 16-year-old can ship an MVP and get users now. First named person: Jasmine, Berkeley, solar power technology. Proposed lead, Aug 14: Jonah could help manage this one. Terms unset, see the Scout economics page.", tag: "Idea \u00b7 has a live name + a proposed lead" },
+        { name: "4 · Spas", company: "Vertical, not audience", desc: "Confirmed Aug 14: literally spas. Physical bathhouses in the Bay Area. Three named targets so far: Good Hot (Richmond), Alchemy Springs (SF), Archimedes Banya (SF). Full detail on the Spas page. Proposed lead, Aug 14: Rachel could help manage this one. Terms unset, see the Scout economics page.", tag: "Confirmed · 3 named targets + a proposed lead" },
         { name: "5 \u00b7 General", company: "Audience-scoped", desc: "No community filter. Anyone who applies, which is the widest possible version and probably the highest-volume, lowest-signal one.", tag: "Idea" },
         { name: "6 \u00b7 Wefunder alums", company: "Audience-scoped", desc: "Founders and operators out of Wefunder. Andrew's current network, and a crowd already fluent in raising from their own community. First named targets, Aug 14: Ahmed Ahmed (Head of Funds) and, as a maybe, Mahamed Dinki (engineer).", tag: "Idea" },
         { name: "7 \u00b7 Fin alums", company: "Audience-scoped", desc: "People out of Fin, Kortina's company with Sam Lessin. Adjacent to the Venmo tree through Kortina rather than through Iqram directly.", tag: "Idea" }
@@ -256,9 +257,65 @@ window.DOCS = [
         "Open: if the rolling fund wins, does Fund I stop existing or become the anchor vehicle?",
         "Open: are the seven audience lists separate vehicles, or one fund with seven sourcing channels? Seven vehicles is seven LP bases and seven sets of paperwork.",
         "Open: which of the seven goes second, after Venmo alums? Jelly is the obvious one since the sessions already exist.",
-        "Open: Spas is the odd one out now. The other six are pools of people, Spas is a vertical of physical businesses. Does it belong in this list at all, or is it its own vehicle with its own LP pitch?"
+        "Open: Spas is the odd one out now. The other six are pools of people, Spas is a vertical of physical businesses. Does it belong in this list at all, or is it its own vehicle with its own LP pitch?",
+        "Open, added Aug 14: if Jonah leads Teenagers and Rachel leads Spas, are they scouts, vehicle leads, or GPs of their own thing? Three very different numbers. Worked through on the Scout economics page.",
+        "Open: two named leads means two of the seven now have a person attached. Does every vehicle need a lead before it starts, or only the ones outside our own network?"
       ]},
       { type: "note", text: "Names are placeholders, not decisions. Dump vehicles at me in any form and I'll file them here with whatever fields you gave me and mark the rest unknown." }
+    ]
+  },
+  {
+    slug: "scouts",
+    nav: "Scout economics",
+    title: "Scout and vehicle-lead economics",
+    kicker: "What we pay people who bring us deals or run a vehicle \u00b7 researched Aug 14",
+    blocks: [
+      { type: "p", text: "Two separate questions got asked in one breath, and they have very different answers. A scout brings a deal and walks away. A vehicle lead runs a fund. Paying a vehicle lead scout rates would badly underpay them, and paying a scout vehicle-lead rates would blow up the carry pool. So this page splits them." },
+      { type: "note", text: "None of this is legal advice and none of it is decided. Scout comp touches broker-dealer rules, so whatever we pick gets run past fund counsel before anyone is promised anything." },
+      { type: "p", text: "What the market actually pays scouts, from public sources:" },
+      { type: "rows", rows: [
+        ["Common range", "5\u201315% of the carry on the deal the scout sourced. This is the number most programs quote."],
+        ["Stingy end", "2.5% of the fund's carry pool. Teten's survey puts the low end here."],
+        ["Generous end", "20%. Allied Venture Partners publishes 20% carry to scouts and uses it as a recruiting pitch."],
+        ["Pro-rata variant", "Scout gets 1/N of the fund's carry pool for one of N deals. Simpler accounting, and it makes scouts care about the whole portfolio, not just their own company."],
+        ["Cash bounty", "About 1% of the amount invested, paid now instead of in a decade. $500K check means roughly $5K."],
+        ["Deployment budget", "$50K\u2013$250K per scout to write $10K\u2013$50K checks with real discretion. Optional, and a much bigger commitment than carry alone."],
+        ["Time to payout", "7\u201312 years. Carry is back-ended, so scout comp is only meaningful to people who are already financially fine."]
+      ]},
+      { type: "p", text: "Why the standard number is wrong for us, in both directions. Fund I is $10M writing $500K checks, so it holds roughly 18\u201320 positions. One sourced deal is about 5% of the entire fund, versus about 3% at a 30-company fund and under 1% at a big multi-stage. A scout who brings us one company is contributing a much larger share of the portfolio than a Sequoia scout is, which argues for the high end of the range. Pulling the other way: our whole thesis is that this community backs each other, so if everyone is a scout, generous per-deal terms compound into a carry pool that no longer covers the GPs." },
+      { type: "note", text: "My recommendation, to accept or shoot down: 10% of the carry on the deal, paid deal-by-deal, no cash, no discretion, no minimum. Published as one flat public number rather than negotiated case by case." },
+      { type: "p", text: "The reasoning behind each part of that:" },
+      { type: "rows", rows: [
+        ["Why 10 and not 5", "One deal is 5% of this fund. Five percent of carry for five percent of the portfolio is not a thank-you, it's a rounding error, and word gets around."],
+        ["Why 10 and not 20", "20% is a recruiting tool for firms that need to attract strangers. We are not short of goodwill in this community, we are short of dollars. Save the 20 for people doing real work."],
+        ["Why deal-by-deal, not fund-netted", "Under netting, a scout can source our single best company and still be paid zero because the fund overall is under 1x. That is technically standard and it would poison a community fund. Pay on their winner."],
+        ["Why publish one number", "Every negotiation with a Venmo alum about their cut is a relationship cost we don't need. A published number turns comp into a non-conversation."],
+        ["Why no cash bounty by default", "Cash finders' fees are where broker-dealer risk lives. Offer it only as an exception, only for people who genuinely need cash now, and only after counsel signs off."],
+        ["Why no deployment budget in Fund I", "Giving out discretion over our money is a v2 problem. Sourcing first, checkbooks later."]
+      ]},
+      { type: "p", text: "Now the other question: Jonah on Teenagers and Rachel on Spas. Neither of those is a scout. Someone who picks the companies, does the diligence, and holds the relationship is doing the GP job on that vehicle, and there are three honest ways to pay it:" },
+      { type: "people", items: [
+        { name: "Option A \u00b7 Carry split on that vehicle", company: "Simplest", desc: "They take 20\u201350% of the carry in the vehicle they run, we take the rest and provide the brand, the paperwork, the LP relationships and the platform. Cleanest if we want the vehicle to be ours with their name on it.", tag: "My default for Jonah" },
+        { name: "Option B \u00b7 They're the GP, we're the platform", company: "Most upside for them", desc: "They own the vehicle and its economics; Help Somebody is an anchor LP, the brand, and the back office, and takes a minority slice. Best if we want them fully motivated and we don't want to run it day to day.", tag: "Worth considering for Rachel" },
+        { name: "Option C \u00b7 Scout-plus", company: "Lightest", desc: "No management role at all. They source, we decide, they take 15\u201320% of the deal carry, above the published 10% because the flow is dedicated and vertical-specific. Right answer if either of them actually wants a side thing, not a job.", tag: "Right answer if it's a side thing" }
+      ]},
+      { type: "note", text: "The uncomfortable math nobody mentions when a vehicle gets a lead: a $2M vehicle at a 2% management fee pays $40K a year, which is not a salary. If Jonah or Rachel is expected to do real weekly work, either the vehicle is big enough to pay them, or the arrangement is explicitly a side project with carry-only upside. Deciding that up front prevents the resentment conversation in month eight." },
+      { type: "p", text: "Vehicle-specific notes:" },
+      { type: "rows", rows: [
+        ["Teenagers / Jonah", "Teen founders need the most hands-on time and take the smallest checks, so the work-per-dollar ratio is the worst of any vehicle. That makes it the one most likely to need Option A with a real fee, or a lead who is doing it for reasons other than money. Also the only vehicle with a live name already, Jasmine, so there's something for him to start on immediately."],
+        ["Spas / Rachel", "If Spas ends up as one SPV per property rather than a fund, there is no fund to manage, so carry per SPV is the natural shape. That points at Option B or C, not A. Three named properties means three deals, not a decade of portfolio management."],
+        ["Both", "A lead on a vehicle is also our public face to that community. That's a brand decision as much as an economic one, so it should be Andrew and Iqram's call, not a term sheet detail."]
+      ]},
+      { type: "list", items: [
+        "Open: who are Jonah and Rachel? I have no last names and no context on either, so both are unconfirmed placeholders here. One line each and I'll fill them in.",
+        "Open: does Rachel have spa or hospitality background, and does Jonah have a connection to teen founders? That determines lead versus scout more than any percentage does.",
+        "Open: accept 10% as the published scout number, or pick a different one?",
+        "Open: deal-by-deal carry or fund-netted? I'd argue hard for deal-by-deal in a community fund.",
+        "Open: is scout carry offered to everyone in the community, or is it an invited list?",
+        "Open: does a scout have to have jellied with us before they can source? That would make the scout program part of the product instead of a bounty scheme.",
+        "Open: does Iqram agree that vehicle leads get GP-shaped economics rather than scout-shaped ones?"
+      ]},
+      { type: "note", text: "Nothing here has touched the deck or the website. Scout terms are an LP-conversation detail, not a slide." }
     ]
   },
   {
@@ -406,6 +463,7 @@ window.DOCS = [
         { date: "Aug 14", text: "Seven vehicles we want to start, Andrew's list in order: 1 Venmo alums, 2 Jelly, 3 Teenagers, 4 Spas, 5 General, 6 Wefunder alums, 7 Fin alums. → filed on the Vehicles page as audience-scoped vehicles. 'Spas' unconfirmed. Nothing on the website or deck touched." },
         { date: "Aug 14", text: "'Spas' means actual spas. Three we want to invest in so far: Good Hot in Richmond, Alchemy Springs in San Francisco, Archimedes Banya. → new Spas page with all three researched from public sources; Vehicles entry #4 updated from 'needs clarification' to confirmed. Website and deck untouched." },
         { date: "Aug 14", text: "For the Venmo alumni fund, we want to invest in Goodnook, allowance, and Eugene. Also Matt Mirman, chat.dev. → filed on the First checks page as vehicle-scoped targets and rolled into Vehicles entry #1. Goodnook, allowance and Eugene all need one line of detail; Matt Mirman flagged against the Modal listing on the traction slide." },
+        { date: "Aug 14", text: "Two asks in one: figure out what scout percentage we should do, and maybe Jonah helps manage the teenager fund while Rachel helps with the spa fund. → new Scout economics page with the market ranges researched and a recommendation of 10% of deal carry, paid deal-by-deal. Jonah and Rachel filed as proposed vehicle leads on Vehicles #3 and #4, with the argument that a lead is a GP role, not a scout role. Both need last names and context. Website and deck untouched." },
         { date: "Aug 14", text: "For Wefunder, we want to invest in Ahmed and maybe Dinki. → resolved from public record as Ahmed Ahmed (Head of Funds, Wefunder) and Mahamed Dinki (engineer, Wefunder), filed on the First checks page and rolled into Vehicles entry #6. Dinki carries the 'maybe' tag as sent. Website and deck untouched." },
       ]},
       { type: "note", text: "Keep dumping. Each one gets logged here, plus a written-up page if it's substantial, plus a one-line proposed change so you can approve or kill it." }

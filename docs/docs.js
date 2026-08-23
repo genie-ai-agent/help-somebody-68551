@@ -1,7 +1,7 @@
 // Help Somebody — internal docs
 // Everything here was gathered from Andrew + Iqram in the Genie thread, or verified
 // from public sources. Anything unverified is marked UNCONFIRMED.
-// Last updated: 2026-08-14 (Added Jasmine to the pipeline; linked to the Teenagers vehicle)
+// Last updated: 2026-08-14 (Added the Spas page: Good Hot, Alchemy Springs, Archimedes Banya)
 
 window.DOCS = [
   {
@@ -221,7 +221,7 @@ window.DOCS = [
         { name: "1 \u00b7 Venmo alums", company: "Audience-scoped", desc: "The founding pool. People who built Venmo with us, backing each other. This is the one that already has a live pipeline: Dasmer, Chris, Shreyans.", tag: "Idea \u00b7 closest to real" },
         { name: "2 \u00b7 Jelly", company: "Audience-scoped", desc: "Founders from the JellyJelly community. The sessions are the sourcing mechanism, so deal flow and community are the same motion.", tag: "Idea" },
         { name: "3 \u00b7 Teenagers", company: "Audience-scoped", desc: "Youngest builders, first checks. The why-now argument at its extreme: a 16-year-old can ship an MVP and get users now. First named person: Jasmine, Berkeley, solar power technology.", tag: "Idea \u00b7 has a live name" },
-        { name: "4 \u00b7 Spas", company: "Audience-scoped", desc: "Heard as 'spas' but unverified. Could be the spa/wellness vertical as a real-business bet, or a mis-transcribed SPVs. Needs one line from Andrew.", tag: "Needs clarification" },
+        { name: "4 · Spas", company: "Vertical, not audience", desc: "Confirmed Aug 14: literally spas. Physical bathhouses in the Bay Area. Three named targets so far: Good Hot (Richmond), Alchemy Springs (SF), Archimedes Banya (SF). Full detail on the Spas page.", tag: "Confirmed · 3 named targets" },
         { name: "5 \u00b7 General", company: "Audience-scoped", desc: "No community filter. Anyone who applies, which is the widest possible version and probably the highest-volume, lowest-signal one.", tag: "Idea" },
         { name: "6 \u00b7 Wefunder alums", company: "Audience-scoped", desc: "Founders and operators out of Wefunder. Andrew's current network, and a crowd already fluent in raising from their own community.", tag: "Idea" },
         { name: "7 \u00b7 Fin alums", company: "Audience-scoped", desc: "People out of Fin, Kortina's company with Sam Lessin. Adjacent to the Venmo tree through Kortina rather than through Iqram directly.", tag: "Idea" }
@@ -244,9 +244,41 @@ window.DOCS = [
         "Open: if the rolling fund wins, does Fund I stop existing or become the anchor vehicle?",
         "Open: are the seven audience lists separate vehicles, or one fund with seven sourcing channels? Seven vehicles is seven LP bases and seven sets of paperwork.",
         "Open: which of the seven goes second, after Venmo alums? Jelly is the obvious one since the sessions already exist.",
-        "Open: what is 'Spas'?"
+        "Open: Spas is the odd one out now. The other six are pools of people, Spas is a vertical of physical businesses. Does it belong in this list at all, or is it its own vehicle with its own LP pitch?"
       ]},
       { type: "note", text: "Names are placeholders, not decisions. Dump vehicles at me in any form and I'll file them here with whatever fields you gave me and mark the rest unknown." }
+    ]
+  },
+  {
+    slug: "spas",
+    nav: "Spas",
+    title: "Spas we want to invest in",
+    kicker: "Three named · Bay Area bathhouses · researched Aug 14",
+    blocks: [
+      { type: "p", text: "'Spas' on the vehicles list turned out to be literal. Not SPVs, not a metaphor for anything. Andrew and Iqram want to put money into physical bathhouses, and there are three named so far. Everything below is from public sources, so correct anything that's out of date." },
+      { type: "people", items: [
+        { name: "Good Hot", company: "Richmond, CA", desc: "Beachfront saunas on Point San Pablo, open since 2021. Co-founded by A 'Lou' Louie and Cooper Rogers. Private trailer-mounted cedar saunas with bay views, cold plunge straight into the bay, wheelchair accessible, 90-minute rentals at $130 to $150. Built explicitly for queer, BIPOC and bathers of different abilities: 50% no-questions-asked coupons for low-income LGBTQ/BIPOC bathers, and up to $40 reimbursed for the ride, since the site isn't reachable by transit. 1950 Stenmark Dr.", tag: "Open · want to invest" },
+        { name: "Alchemy Springs", company: "San Francisco, CA", desc: "939 Post St, Lower Nob Hill. CEO Anne Cannady, with a co-founder, Jon, out of Summit Series and Abundance360. The Sauna Garden opened June 2024 with what press calls the largest freestanding sauna in the country, and it has been profitable from the start while running at roughly 30% of planned capacity and only about 20 hours a week, 90% of growth by word of mouth. A 6,000 sq ft full thermal bathhouse is slated for 2026: high-heat meditation sauna, steam room, infrared recovery greenhouse, communal hot soak, communal cold plunge. Community-funded before (a Small Change equity round, $750K previously raised, 30-year lease signed) and there's a live invest page on their site.", tag: "Raising · want to invest" },
+        { name: "Archimedes Banya", company: "San Francisco, CA", desc: "748 Innes Ave, Bayview-Hunters Point, on the bay. Russian banya blended with Greek laconica, Turkish hammam and German thermen: Finnish sauna, two Russian steam rooms, Japanese soaking tub, cold plunge, sun deck, cafe. 18+ with ID. The only place in California offering venik platza every day of the week. The established operator of the three, and the one with no publicly known raise.", tag: "Established · no known raise" }
+      ]},
+      { type: "note", text: "Why this isn't a detour: all three are third places built to fight isolation, which is the same argument the Mental health page makes about founders. A bathhouse is the physical version of jellying. Alchemy Springs' own investor page even cites the Global Wellness Institute calling social saunas a remedy for loneliness. If we back these, that's the thread, not 'wellness is hot right now.'" },
+      { type: "note", text: "The structural problem to solve before any money moves: $500K into a bathhouse is a different asset than $500K into software. No power law, no 100x, but real cash flow, a real lease, and real capex. If these come out of Fund I, an LP will fairly ask why a founder-support fund owns real estate. Cleanest answer is one SPV per property, which is exactly what the Spas vehicle should be." },
+      { type: "p", text: "Fit with the rest of the thesis, honestly assessed:" },
+      { type: "rows", rows: [
+        ["Fits", "People-first. Louie and Rogers built Good Hot from nothing; Cannady has been raising from her own community for years. Both are underserved-operator stories."],
+        ["Fits", "Andrew's day job is community raises for exactly this kind of business. This is the Wefunder muscle applied to our own book."],
+        ["Tension", "Returns profile. Bathhouses don't 10x a $10M fund. They pay."],
+        ["Tension", "Support offer. Growth, product, engineering, fundraising is a software menu. Fundraising transfers; the other three mostly don't."]
+      ]},
+      { type: "list", items: [
+        "Open: equity, revenue share, or real estate? Different answer per property, probably.",
+        "Open: does this come out of Fund I, or is it a separate SPV per spa so the fund story stays clean?",
+        "Open: has anyone actually talked to Archimedes Banya, and does it even want capital?",
+        "Open: do spa investments get the jelly support, or is this capital-only with no session commitment?",
+        "Open: is there a JellyJelly angle here, sessions hosted at these places? That would make the vertical make sense in a way a spreadsheet won't.",
+        "Open: is three the list, or is it a running one? I'll keep adding as you name them."
+      ]},
+      { type: "note", text: "Nothing about spas has gone near the website or the deck, and I wouldn't put it there yet. An LP reading a founder-support deck that mentions bathhouses needs the connective sentence first." }
     ]
   },
   {
@@ -334,7 +366,11 @@ window.DOCS = [
         "Jasmine's last name, and what specifically she's building in solar? (Panels, storage, software, install?)",
         "How did Jasmine come to us, and is she the anchor for the Teenagers vehicle or a Fund I check?",
         "Does the resume-only rule apply to Jasmine? She has no resume yet, and the build is the story.",
-        "Does \u201cwe don't have lots of money\u201d get said out loud to LPs, or stay implicit as \u201coperators, not an institution\u201d?"
+        "Does \u201cwe don't have lots of money\u201d get said out loud to LPs, or stay implicit as \u201coperators, not an institution\u201d?",
+        "Spas: does the money come out of Fund I, or one SPV per property so the software fund story stays clean?",
+        "Spas: equity, revenue share, or real estate, and is it the same instrument for all three?",
+        "Spas: has Archimedes Banya been approached, and does it want capital at all?",
+        "Spas: is there a JellyJelly angle (sessions hosted at these places), or is this purely an investment?"
       ]}
     ]
   },
@@ -352,7 +388,8 @@ window.DOCS = [
         { date: "Aug 14", text: "Having no money and having failed a lot is a huge advantage. Most founders fail; we're failing. VCs who haven't been through a startup failure have no idea what founders are going through \u2014 some have seen a near-failure like Venmo, but that's different. Andrew's own experience at [Mave? Vaz?] and Iqram's with [Small Talk? Hints?] really helps. \u2192 written up on the Failure as edge page; why-us slide rewrite proposed, not made. Company names need confirming." },
         { date: "Aug 14", text: "Recap of two jellies lost in transit (five lost so far). Same failure-as-edge argument, plus a new beat: it was an advantage at Venmo too, since that was Iqram and Kortina's fifth or sixth project together. Most startups fail, we know how that feels, we've seen so many situations \u2014 [Maeve?] and [Boz?] and [Fin?], [Ense?] and [Smalltalk?] \u2014 and we get these founders. \u2192 folded into the Failure as edge page as the persistence argument, with the prior attempts named from public record." },
         { date: "Aug 14", text: "Jasmine, a teenager in Berkeley working on solar power technology, is someone we want to invest in. \u2192 filed on the First checks page as a non-Venmo pipeline entry, and linked to the Teenagers vehicle. Needs a last name; deck and website untouched." },
-        { date: "Aug 14", text: "Seven vehicles we want to start, Andrew's list in order: 1 Venmo alums, 2 Jelly, 3 Teenagers, 4 Spas, 5 General, 6 Wefunder alums, 7 Fin alums. \u2192 filed on the Vehicles page as audience-scoped vehicles. 'Spas' unconfirmed. Nothing on the website or deck touched." }
+        { date: "Aug 14", text: "Seven vehicles we want to start, Andrew's list in order: 1 Venmo alums, 2 Jelly, 3 Teenagers, 4 Spas, 5 General, 6 Wefunder alums, 7 Fin alums. → filed on the Vehicles page as audience-scoped vehicles. 'Spas' unconfirmed. Nothing on the website or deck touched." },
+        { date: "Aug 14", text: "'Spas' means actual spas. Three we want to invest in so far: Good Hot in Richmond, Alchemy Springs in San Francisco, Archimedes Banya. → new Spas page with all three researched from public sources; Vehicles entry #4 updated from 'needs clarification' to confirmed. Website and deck untouched." }
       ]},
       { type: "note", text: "Keep dumping. Each one gets logged here, plus a written-up page if it's substantial, plus a one-line proposed change so you can approve or kill it." }
     ]

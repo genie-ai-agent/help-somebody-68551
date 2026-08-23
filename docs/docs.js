@@ -1,7 +1,7 @@
 // Help Somebody — internal docs
 // Everything here was gathered from Andrew + Iqram in the Genie thread, or verified
 // from public sources. Anything unverified is marked UNCONFIRMED.
-// Last updated: 2026-08-14 (Added Vehicles tracker: funds + syndicates we want to start)
+// Last updated: 2026-08-14 (Added Jasmine to the pipeline; linked to the Teenagers vehicle)
 
 window.DOCS = [
   {
@@ -195,7 +195,13 @@ window.DOCS = [
         { name: "Chris Stanchak", company: "", desc: "Founded TicketLeap on a $50K SBA loan · raised $8.5M · $100M+/yr in ticket sales · sold to PE · founding advisor to Venmo" },
         { name: "Shreyans Bhansali", company: "", desc: "Employee #1 at Venmo · co-founder & CTO of Socratic, acquired by Google, scaled to 5B queries/yr" }
       ]},
-      { type: "note", text: "Every one of the three is Venmo DNA. That's the slide's real argument: our pipeline is our alumni network." }
+      { type: "note", text: "Every one of the three is Venmo DNA. That's the slide's real argument: our pipeline is our alumni network." },
+      { type: "p", text: "Second list, added Aug 14: people in the pipeline who are not from the Venmo tree. Kept separate on purpose, because the three above make an argument about our network and these make an argument about our range." },
+      { type: "people", items: [
+        { name: "Jasmine", company: "Solar power technology", desc: "Teenager in Berkeley. First named person for the Teenagers vehicle, and the youngest name in the pipeline.", tag: "Want to invest \u00b7 last name needed" }
+      ]},
+      { type: "note", text: "Jasmine is the proof that the Teenagers vehicle is a real pipeline and not a category on a list. She's also the sharpest possible illustration of the why-now argument: a teenager building hardware-adjacent technology that used to require a lab and a payroll." },
+      { type: "note", text: "Rule conflict to resolve before she goes on any artifact: the house rule for first checks is resume only, never say what they're working on. Jasmine is the inverse \u2014 what she's building is the interesting part, and she has no resume yet by design. Either she's an exception, or she lives on a different slide from the three Venmo operators." }
     ]
   },
   {
@@ -210,6 +216,17 @@ window.DOCS = [
         { name: "Help Somebody Syndicate", company: "Syndicate \u00b7 companion", desc: "Deal-by-deal SPVs so the community, and Venmo alumni, can invest alongside the fund.", tag: "Agreed in principle, not started" },
         { name: "Rolling fund", company: "Alternative structure", desc: "Quarterly subscription instead of one closed $10M vehicle. Faster to start, smaller first close.", tag: "Exploring" }
       ]},
+      { type: "p", text: "Second list, added Aug 14: audience-scoped vehicles. These aren't different structures, they're different pools of people. Each one is a syndicate or small fund defined by who it backs, and each could carry its own LP base drawn from that same community. Andrew's raw list, in his order, all still ideas:" },
+      { type: "people", items: [
+        { name: "1 \u00b7 Venmo alums", company: "Audience-scoped", desc: "The founding pool. People who built Venmo with us, backing each other. This is the one that already has a live pipeline: Dasmer, Chris, Shreyans.", tag: "Idea \u00b7 closest to real" },
+        { name: "2 \u00b7 Jelly", company: "Audience-scoped", desc: "Founders from the JellyJelly community. The sessions are the sourcing mechanism, so deal flow and community are the same motion.", tag: "Idea" },
+        { name: "3 \u00b7 Teenagers", company: "Audience-scoped", desc: "Youngest builders, first checks. The why-now argument at its extreme: a 16-year-old can ship an MVP and get users now. First named person: Jasmine, Berkeley, solar power technology.", tag: "Idea \u00b7 has a live name" },
+        { name: "4 \u00b7 Spas", company: "Audience-scoped", desc: "Heard as 'spas' but unverified. Could be the spa/wellness vertical as a real-business bet, or a mis-transcribed SPVs. Needs one line from Andrew.", tag: "Needs clarification" },
+        { name: "5 \u00b7 General", company: "Audience-scoped", desc: "No community filter. Anyone who applies, which is the widest possible version and probably the highest-volume, lowest-signal one.", tag: "Idea" },
+        { name: "6 \u00b7 Wefunder alums", company: "Audience-scoped", desc: "Founders and operators out of Wefunder. Andrew's current network, and a crowd already fluent in raising from their own community.", tag: "Idea" },
+        { name: "7 \u00b7 Fin alums", company: "Audience-scoped", desc: "People out of Fin, Kortina's company with Sam Lessin. Adjacent to the Venmo tree through Kortina rather than through Iqram directly.", tag: "Idea" }
+      ]},
+      { type: "note", text: "Pattern worth naming: six of the seven are 'alumni of a thing we belong to.' That's a repeatable machine, not seven one-offs. Pick one community, run the vehicle, template it, run it again. 'General' is the odd one out because it has no community to draw LPs from." },
       { type: "p", text: "Fields I keep for each one, so a new entry is never half-specified:" },
       { type: "rows", rows: [
         ["Name", "Working name is fine"],
@@ -224,7 +241,10 @@ window.DOCS = [
       { type: "list", items: [
         "Open: does the syndicate launch before Fund I closes, as proof of demand, or after, so it doesn't compete for the same dollars?",
         "Open: is the syndicate open to anyone in the JellyJelly community, or invite-only to Venmo alumni?",
-        "Open: if the rolling fund wins, does Fund I stop existing or become the anchor vehicle?"
+        "Open: if the rolling fund wins, does Fund I stop existing or become the anchor vehicle?",
+        "Open: are the seven audience lists separate vehicles, or one fund with seven sourcing channels? Seven vehicles is seven LP bases and seven sets of paperwork.",
+        "Open: which of the seven goes second, after Venmo alums? Jelly is the obvious one since the sessions already exist.",
+        "Open: what is 'Spas'?"
       ]},
       { type: "note", text: "Names are placeholders, not decisions. Dump vehicles at me in any form and I'll file them here with whatever fields you gave me and mark the rest unknown." }
     ]
@@ -311,6 +331,9 @@ window.DOCS = [
         "Is mental health part of a jelly session, or a separate kind of session with a different name?",
         "Andrew's own companies: transcript sounded like \u201cMave\u201d and \u201cVaz.\u201d Correct names, and one line each on what happened?",
         "Iqram's post-Venmo projects: transcript sounded like \u201cSmall Talk\u201d and \u201cHints.\u201d Correct names?",
+        "Jasmine's last name, and what specifically she's building in solar? (Panels, storage, software, install?)",
+        "How did Jasmine come to us, and is she the anchor for the Teenagers vehicle or a Fund I check?",
+        "Does the resume-only rule apply to Jasmine? She has no resume yet, and the build is the story.",
         "Does \u201cwe don't have lots of money\u201d get said out loud to LPs, or stay implicit as \u201coperators, not an institution\u201d?"
       ]}
     ]
@@ -327,7 +350,9 @@ window.DOCS = [
         { date: "Aug 14", text: "Help Somebody as the first actually AI-native accelerator. Not AI to optimize our operations \u2014 reinventing what an accelerator is. Example: I can be every company's growth engineer long term; we build tools for all our companies that help them all. \u2192 written up on the AI-native page; needs one call on accelerator vs fund, and where it goes in the deck." },
         { date: "Aug 14", text: "Mental health as a thing we help with. Andrew has been through a lot across a few startups, learned a lot about founders and himself, thinks it's one of the biggest levers on founder success. Top reason startups fail is cofounder issues. Wants to foster the cofounder relationship where there are multiple people, and support solo founders and individual cofounders on their state of mind. \u2192 written up on the Mental health page; proposed as a bullet or a slide on the deck, not made." },
         { date: "Aug 14", text: "Having no money and having failed a lot is a huge advantage. Most founders fail; we're failing. VCs who haven't been through a startup failure have no idea what founders are going through \u2014 some have seen a near-failure like Venmo, but that's different. Andrew's own experience at [Mave? Vaz?] and Iqram's with [Small Talk? Hints?] really helps. \u2192 written up on the Failure as edge page; why-us slide rewrite proposed, not made. Company names need confirming." },
-        { date: "Aug 14", text: "Recap of two jellies lost in transit (five lost so far). Same failure-as-edge argument, plus a new beat: it was an advantage at Venmo too, since that was Iqram and Kortina's fifth or sixth project together. Most startups fail, we know how that feels, we've seen so many situations \u2014 [Maeve?] and [Boz?] and [Fin?], [Ense?] and [Smalltalk?] \u2014 and we get these founders. \u2192 folded into the Failure as edge page as the persistence argument, with the prior attempts named from public record." }
+        { date: "Aug 14", text: "Recap of two jellies lost in transit (five lost so far). Same failure-as-edge argument, plus a new beat: it was an advantage at Venmo too, since that was Iqram and Kortina's fifth or sixth project together. Most startups fail, we know how that feels, we've seen so many situations \u2014 [Maeve?] and [Boz?] and [Fin?], [Ense?] and [Smalltalk?] \u2014 and we get these founders. \u2192 folded into the Failure as edge page as the persistence argument, with the prior attempts named from public record." },
+        { date: "Aug 14", text: "Jasmine, a teenager in Berkeley working on solar power technology, is someone we want to invest in. \u2192 filed on the First checks page as a non-Venmo pipeline entry, and linked to the Teenagers vehicle. Needs a last name; deck and website untouched." },
+        { date: "Aug 14", text: "Seven vehicles we want to start, Andrew's list in order: 1 Venmo alums, 2 Jelly, 3 Teenagers, 4 Spas, 5 General, 6 Wefunder alums, 7 Fin alums. \u2192 filed on the Vehicles page as audience-scoped vehicles. 'Spas' unconfirmed. Nothing on the website or deck touched." }
       ]},
       { type: "note", text: "Keep dumping. Each one gets logged here, plus a written-up page if it's substantial, plus a one-line proposed change so you can approve or kill it." }
     ]

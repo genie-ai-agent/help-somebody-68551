@@ -1,7 +1,7 @@
 // Help Somebody — internal docs
 // Everything here was gathered from Andrew + Iqram in the Genie thread, or verified
 // from public sources. Anything unverified is marked UNCONFIRMED.
-// Last updated: 2026-08-14 (Failure as edge expanded: persistence + named prior attempts)
+// Last updated: 2026-08-14 (Added Vehicles tracker: funds + syndicates we want to start)
 
 window.DOCS = [
   {
@@ -196,6 +196,37 @@ window.DOCS = [
         { name: "Shreyans Bhansali", company: "", desc: "Employee #1 at Venmo · co-founder & CTO of Socratic, acquired by Google, scaled to 5B queries/yr" }
       ]},
       { type: "note", text: "Every one of the three is Venmo DNA. That's the slide's real argument: our pipeline is our alumni network." }
+    ]
+  },
+  {
+    slug: "vehicles",
+    nav: "Vehicles",
+    title: "Vehicles we want to start",
+    kicker: "Running list \u00b7 add anything, nothing here is committed",
+    blocks: [
+      { type: "p", text: "One place for every fund, syndicate, or SPV we might launch, so we stop re-deciding structure in conversation. Only the first entry is real. Everything else is a candidate until Andrew and Iqram say otherwise." },
+      { type: "people", items: [
+        { name: "Help Somebody Fund I", company: "Fund \u00b7 primary vehicle", desc: "$10M target, $500K first checks. Roughly 18\u201320 positions with no reserves, 15\u201316 if we hold back for follow-ons.", tag: "Raising" },
+        { name: "Help Somebody Syndicate", company: "Syndicate \u00b7 companion", desc: "Deal-by-deal SPVs so the community, and Venmo alumni, can invest alongside the fund.", tag: "Agreed in principle, not started" },
+        { name: "Rolling fund", company: "Alternative structure", desc: "Quarterly subscription instead of one closed $10M vehicle. Faster to start, smaller first close.", tag: "Exploring" }
+      ]},
+      { type: "p", text: "Fields I keep for each one, so a new entry is never half-specified:" },
+      { type: "rows", rows: [
+        ["Name", "Working name is fine"],
+        ["Type", "Fund, rolling fund, syndicate, one-off SPV"],
+        ["Who leads", "Andrew, Iqram, both, or someone outside"],
+        ["Thesis", "One line. Who it backs and why it exists separately from Fund I"],
+        ["Target size", "And minimum viable first close"],
+        ["Check size", "And whether it holds reserves"],
+        ["Status", "Idea \u2192 exploring \u2192 committed \u2192 raising \u2192 closed"],
+        ["Next step", "The single next action, with an owner"]
+      ]},
+      { type: "list", items: [
+        "Open: does the syndicate launch before Fund I closes, as proof of demand, or after, so it doesn't compete for the same dollars?",
+        "Open: is the syndicate open to anyone in the JellyJelly community, or invite-only to Venmo alumni?",
+        "Open: if the rolling fund wins, does Fund I stop existing or become the anchor vehicle?"
+      ]},
+      { type: "note", text: "Names are placeholders, not decisions. Dump vehicles at me in any form and I'll file them here with whatever fields you gave me and mark the rest unknown." }
     ]
   },
   {

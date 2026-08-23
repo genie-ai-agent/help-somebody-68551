@@ -1,8 +1,10 @@
 // Help Somebody — internal docs
 // Everything here was gathered from Andrew + Iqram in the Genie thread, or verified
 // from public sources. Anything unverified is marked UNCONFIRMED.
-// Last updated: 2026-08-14 (Scout economics page added: recommend 10% of deal carry, deal-by-deal.
-// Jonah proposed as Teenagers lead, Rachel as Spas lead — both UNCONFIRMED, no last names.)
+// Last updated: 2026-08-14 (Andrew corrected the record: Matt Mirman is NOT involved with Modal.
+// Traction attribution reopened: Modal now has no owner and the 'biggest win' claim is unsourced.
+// Eugene confirmed as a person, she/her, building plant AI; startup name still unknown.
+// One deck edit PROPOSED, NOT MADE. Deck and website untouched.)
 
 window.DOCS = [
   {
@@ -167,9 +169,9 @@ window.DOCS = [
     title: "People we backed",
     kicker: "Traction · person first, company as a tag",
     blocks: [
-      { type: "p", text: "Iqram has invested individually and alongside other funds. Modal is the biggest win. Descriptions are written as what the company does for a person, 5\u20137 words, because the reader should not have to decode a category." },
+      { type: "p", text: "Iqram has invested individually and alongside other funds. Descriptions are written as what the company does for a person, 5\u20137 words, because the reader should not have to decode a category." },
       { type: "people", items: [
-        { name: "Matt Mirman", company: "Modal", desc: "Instant supercomputers for anyone building AI", tag: "Biggest win" },
+        { name: "Matt Mirman", company: "chat.dev", desc: "Turns a conversation into working software", tag: "Corrected Aug 14" },
         { name: "Kiaan Pillay", company: "Stitch", desc: "Connects African apps to bank accounts", tag: "Publicly citable" },
         { name: "Jacques Marco", company: "Axis", desc: "Free, instant money transfers across Egypt" },
         { name: "Phoebe Gates & Sophia Kianni", company: "Phia", desc: "Finds shoppers a better price instantly" }
@@ -178,11 +180,13 @@ window.DOCS = [
       { type: "people", items: [
         { name: "Founder TBD", company: "Flutterwave", desc: "Lets African businesses accept payments anywhere", tag: "UNCONFIRMED" },
         { name: "Founder TBD", company: "Zo", desc: "Turns homes into hacker houses for founders", tag: "UNCONFIRMED" },
-        { name: "Founder TBD", company: "chat.dev", desc: "Turns a conversation into working software", tag: "UNCONFIRMED" },
-        { name: "Founder TBD", company: "Light Shift", desc: "Description needed \u2014 what does it do?", tag: "UNCONFIRMED" }
+        { name: "Founder TBD", company: "Light Shift", desc: "Description needed \u2014 what does it do?", tag: "UNCONFIRMED" },
+        { name: "Owner unknown", company: "Modal", desc: "Instant supercomputers for anyone building AI", tag: "OWNERLESS \u2014 do we claim it at all?" }
       ]},
       { type: "note", text: "Tye Wang and Rob Cheung appeared on an earlier list of people backed, company unknown. Stitch has a public receipt: TechCrunch's funding story names Iqram in the angel round." },
-      { type: "note", text: "Attribution conflict, Aug 14: Andrew named Matt Mirman alongside chat.dev, which matches public record (Anarchy / chat.dev is his). The Modal pairing above came from an earlier pass and is probably a mis-merge, since Modal was founded by Erik Bernhardsson. Left both here rather than silently rewriting traction." }
+      { type: "note", text: "RESOLVED Aug 14, direct from Andrew: Mirman is not involved with Modal. So Mirman moves to chat.dev, which matches public record (Anarchy / chat.dev is his). Modal is separated out with no owner attached, since Erik Bernhardsson founded it and nobody here has claimed the relationship." },
+      { type: "note", text: "The bigger casualty: 'Modal is the biggest win' was load-bearing on the traction slide, and it rested on the Mirman pairing that just got killed. Deleted from this page rather than left standing. Two things need Andrew or Iqram before traction is honest again \u2014 does Modal belong on the list at all (did Iqram get in through some other route?), and if it comes off, what is the biggest win instead? Stitch is the one with a public receipt, so it is the obvious candidate." },
+      { type: "note", text: "PROPOSED DECK EDIT, NOT MADE. Slide 7 currently reads 'Matt Mirman / Modal' as the lead item. Proposed: change the company line under his name to chat.dev, and if Modal comes off the list, promote Kiaan Pillay / Stitch into the lead slot since it is publicly citable. Waiting on Andrew." }
     ]
   },
   {
@@ -208,7 +212,7 @@ window.DOCS = [
       { type: "people", items: [
         { name: "Goodnook", company: "Venmo alums vehicle", desc: "No public detail I could verify. Need one line on what it is and who the founder is.", tag: "Want to invest · needs detail" },
         { name: "allowance", company: "Venmo alums vehicle", desc: "Lowercase as Andrew wrote it. The name suggests kids and money, which would rhyme with Dasmer's Cash App Families work, but that is a guess and not verified.", tag: "Want to invest · needs detail" },
-        { name: "Eugene", company: "Venmo alums vehicle", desc: "Unclear whether Eugene is the person or the company. Need a last name or a URL.", tag: "Want to invest · ambiguous" },
+        { name: "Eugene", company: "Plant AI · company name unknown", desc: "A person, she/her, confirmed by Andrew Aug 14. Building 'some sort of plant AI.' Startup name not known yet. I searched public sources and found nothing I would stand behind, so no guess is recorded here.", tag: "Want to invest · needs company name" },
         { name: "Matt Mirman", company: "chat.dev", desc: "Turns a conversation into working software. Already appears on the People we backed page, so this reads as a follow-on rather than a first check.", tag: "Want to invest" },
         { name: "Ahmed Ahmed", company: "Wefunder alums vehicle", desc: "Head of Funds at Wefunder. Former professional kickboxer and bioengineer, UC San Diego, self-described Form C connoisseur.", tag: "Want to invest" },
         { name: "Mahamed Dinki", company: "Wefunder alums vehicle", desc: "Engineer at Wefunder, hiring full-stack engineers under his own name. Andrew's word was 'maybe', so this one is a lean and not a yes.", tag: "Maybe" }
@@ -364,7 +368,7 @@ window.DOCS = [
         "Why now: cheaper to build, more medium outcomes",
         "$500K, and then we jelly all day",
         "Why us: Venmo, twice over",
-        "Traction: people we backed (Modal / Matt Mirman leads)",
+        "Traction: people we backed (currently leads with Modal / Matt Mirman \u2014 that pairing is wrong; edit proposed, not made)",
         "First checks: three named operators",
         "Where they come from: the Venmo network",
         "Fund math",
@@ -435,8 +439,11 @@ window.DOCS = [
         "Jasmine's last name, and what specifically she's building in solar? (Panels, storage, software, install?)",
         "How did Jasmine come to us, and is she the anchor for the Teenagers vehicle or a Fund I check?",
         "Does the resume-only rule apply to Jasmine? She has no resume yet, and the build is the story.",
-        "Goodnook, allowance, Eugene: one line each on what they are, and is Eugene a person or a company?",
-        "Matt Mirman: Modal, chat.dev, or both? The traction slide currently credits him with Modal.",
+        "Goodnook and allowance: one line each on what they are and who is behind them.",
+        "Eugene: what is the startup called, and is it plant identification/care, ag and greenhouse, or plant biology? Also her last name.",
+        "Does Modal stay on the People we backed list at all now that the Mirman pairing is dead? If Iqram is in it, through whom?",
+        "If Modal comes off, what is the biggest win we lead traction with? Stitch is the only one with a public receipt.",
+        "Approve the proposed slide 7 edit (Mirman to chat.dev)? Nothing on the deck changes until you say so.",
         "Is the Wefunder alums vehicle for current Wefunder people like Ahmed and Dinki, or only for people who leave to found something?",
         "Does \u201cwe don't have lots of money\u201d get said out loud to LPs, or stay implicit as \u201coperators, not an institution\u201d?",
         "Spas: does the money come out of Fund I, or one SPV per property so the software fund story stays clean?",
@@ -465,6 +472,7 @@ window.DOCS = [
         { date: "Aug 14", text: "For the Venmo alumni fund, we want to invest in Goodnook, allowance, and Eugene. Also Matt Mirman, chat.dev. → filed on the First checks page as vehicle-scoped targets and rolled into Vehicles entry #1. Goodnook, allowance and Eugene all need one line of detail; Matt Mirman flagged against the Modal listing on the traction slide." },
         { date: "Aug 14", text: "Two asks in one: figure out what scout percentage we should do, and maybe Jonah helps manage the teenager fund while Rachel helps with the spa fund. → new Scout economics page with the market ranges researched and a recommendation of 10% of deal carry, paid deal-by-deal. Jonah and Rachel filed as proposed vehicle leads on Vehicles #3 and #4, with the argument that a lead is a GP role, not a scout role. Both need last names and context. Website and deck untouched." },
         { date: "Aug 14", text: "For Wefunder, we want to invest in Ahmed and maybe Dinki. → resolved from public record as Ahmed Ahmed (Head of Funds, Wefunder) and Mahamed Dinki (engineer, Wefunder), filed on the First checks page and rolled into Vehicles entry #6. Dinki carries the 'maybe' tag as sent. Website and deck untouched." },
+        { date: "Aug 14", text: "Two corrections from Andrew: Mirman is not involved with Modal, and Eugene is a person — she is doing some sort of plant AI, startup name unknown. → People we backed rewritten: Mirman moved to chat.dev, Modal separated out with no owner, and the 'Modal is the biggest win' line deleted since it rested on the dead pairing. Eugene's entry updated on First checks; I searched for the company and found nothing citable, so no guess is recorded. One deck edit proposed on slide 7, not made." },
       ]},
       { type: "note", text: "Keep dumping. Each one gets logged here, plus a written-up page if it's substantial, plus a one-line proposed change so you can approve or kill it." }
     ]

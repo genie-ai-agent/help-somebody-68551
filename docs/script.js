@@ -29,6 +29,8 @@
         return '<blockquote>&ldquo;' + esc(b.text) + '&rdquo;</blockquote>';
       case 'note':
         return '<div class="note"><strong>Note</strong>' + esc(b.text) + '</div>';
+      case 'correction':
+        return '<div class="note fix"><strong>Correction</strong>' + esc(b.text) + '</div>';
       case 'people':
         return '<div class="people">' + b.items.map(function (p) {
           var warn = p.tag && /unconfirmed/i.test(p.tag) ? ' warn' : '';

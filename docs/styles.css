@@ -153,6 +153,10 @@ blockquote{
   display:block;font-family:'JetBrains Mono',monospace;font-size:10px;
   letter-spacing:.14em;text-transform:uppercase;color:var(--accent-2);margin-bottom:6px;
 }
+.note.fix{
+  background:#fff;border-color:var(--accent);border-left-width:3px;color:var(--ink);
+}
+.note.fix strong{color:var(--accent)}
 
 /* people */
 .people{display:grid;gap:12px;margin:0 0 20px}
